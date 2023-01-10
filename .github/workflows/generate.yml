@@ -21,12 +21,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: |
-          npm ci
-          npm run build
-          npm run start
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Update state"
-          git push
+      - run: npm ci
+      - run: npm run build
+      - run: npm run start
+      - run: git config user.name github-actions
+      - run: git config user.email github-actions@github.com
+      - run: git add .
+      - run: git diff-index --quiet HEAD || git commit -m "Update state"
+      - run: git push
