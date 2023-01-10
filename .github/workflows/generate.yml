@@ -1,0 +1,32 @@
+name: "Generate missing routes"
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches: [ "**" ]
+
+jobs:
+  generate:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: |
+          npm ci
+          npm run build
+          npm run start
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update state"
+          git push
