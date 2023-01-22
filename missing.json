@@ -131,6 +131,7 @@
   "/guilds/:id/analytics/overview",
   "/guilds/:id/application-commands/:id",
   "/guilds/:id/applications",
+  "/guilds/:id/auto-moderation/clear-mention-raid",
   "/guilds/:id/auto-moderation/rules",
   "/guilds/:id/auto-moderation/rules/:id",
   "/guilds/:id/auto-moderation/rules/validate",
