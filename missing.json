@@ -1,4 +1,5 @@
 [
+  "/activities/:id/skus",
   "/activities/:id/test-mode",
   "/activities/guilds/:id/:id/:id",
   "/activities/guilds/:id/enable-wtp",
