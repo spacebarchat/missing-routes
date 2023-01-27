@@ -240,6 +240,7 @@
   "/reports",
   "/reports/channels/:id/messages/:id",
   "/roles/:id/icons/:id.png",
+  "/saved-messages",
   "/soundboard-sounds/:id",
   "/sso",
   "/sso-token",
