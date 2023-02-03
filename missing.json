@@ -47,6 +47,7 @@
   "/billing/verify-purchase-request",
   "/branches",
   "/callscope/logs/:id/user/:id/%3Aid",
+  "/channels/:id/:id/shared-canvas/lines",
   "/channels/:id/application-commands/search",
   "/channels/:id/attachments",
   "/channels/:id/call",
