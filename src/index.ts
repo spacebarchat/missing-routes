@@ -59,13 +59,13 @@ const findClientRoutes = (source: string): string[] => {
 
 					// this is gross, don't care. it's temp, bestie
 					const scoped = `
-var ye;
-(function (ye) {
-ye["JOIN"] = "JOIN";
-ye["LISTEN"] = "LISTEN";
-ye["WATCH"] = "WATCH";
-ye["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(ye || (ye = {}));
+var Se;
+(function (Se) {
+Se["JOIN"] = "JOIN";
+Se["LISTEN"] = "LISTEN";
+Se["WATCH"] = "WATCH";
+Se["JOIN_REQUEST"] = "JOIN_REQUEST";
+})(Se || (Se = {}));
 var DEVICES;
 (function (DEVICES) {
 DEVICES["MOBILE"] = "mobile";
@@ -73,8 +73,8 @@ DEVICES["DESKTOP"] = "desktop";
 DEVICES["WEB"] = "web";
 DEVICES["DEVICE_CODE"] = "device_code";
 })(DEVICES || (DEVICES = {}));
-const E = {};
-E.g = DEVICES;
+const p = {};
+p.g = DEVICES;
 `;
 
 					out += scoped;
