@@ -6,6 +6,8 @@ import { generate } from "astring";
 import fs from "fs";
 import { traverse } from "estree-toolkit";
 
+const JAVASCRIPT_ENVIRONMENT = fs.readFileSync("./src/template.js").toString();
+
 const getClientSource = async () => {
 	const index = await fetch("https://discord.com/app").then(x => x.text());
 	const script = [...index.matchAll(/[A-Fa-f0-9]{20}.js/g)].reverse()[0];
@@ -46,54 +48,14 @@ const findClientRoutes = (source: string): string[] => {
 					)
 				) {
 					// this is our routes list
-
-					// for (var childScope of path.scope?.children || []) {
-					// 	const childNode = childScope.path.node;
-					// 	const opp = childScope.path.
-					// 	if (!opp) continue;
-
-					// 	if (!childNode) continue;
-
-					// 	out += generate(childNode) + "\n\n";
-					// }
-
-					// this is gross, don't care. it's temp, bestie
-					const scoped = `
-var ye;
-(function (ye) {
-ye["JOIN"] = "JOIN";
-ye["LISTEN"] = "LISTEN";
-ye["WATCH"] = "WATCH";
-ye["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(ye || (ye = {}));
-var DEVICES;
-(function (DEVICES) {
-DEVICES["MOBILE"] = "mobile";
-DEVICES["DESKTOP"] = "desktop";
-DEVICES["WEB"] = "web";
-DEVICES["DEVICE_CODE"] = "device_code";
-})(DEVICES || (DEVICES = {}));
-const p = {};
-p.g = DEVICES;
-`;
-
-					out += scoped;
-
-					out += "const routes = " + generate(node) + "\n\n";
-
-					out += `
-Object.values(routes).map((route) => {
-	return typeof route == "function" ? route(...new Array(20).fill(":id")) : route
-})
-`;
-
+					const generated = generate(node);
+					out = JAVASCRIPT_ENVIRONMENT.replace("// --- GENERATED_CODE_MARKER ---", generated);
 					return estraverse.VisitorOption.Break;
 				}
 			},
 		},
 	});
 
-	// haha evil
 	return eval(out);
 };
 
