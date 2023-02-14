@@ -170,6 +170,7 @@
   "/guilds/:id/onboarding",
   "/guilds/:id/onboarding-prompts/:id",
   "/guilds/:id/onboarding-responses",
+  "/guilds/:id/pincode",
   "/guilds/:id/premium/subscriptions/:id",
   "/guilds/:id/preview",
   "/guilds/:id/requests",
