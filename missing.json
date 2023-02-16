@@ -1,8 +1,7 @@
 [
   "/activities/:id/:id",
-  "/activities/:id/skus",
   "/activities/:id/test-mode",
-  "/activities/guilds/:id/shelf",
+  "/activities/shelf",
   "/activities/statistics/applications/:id",
   "/application-directory/applications/:id",
   "/application-directory/applications/:id/similar",
@@ -46,6 +45,7 @@
   "/billing/verify-purchase-request",
   "/branches",
   "/callscope/logs/:id/user/:id/%3Aid",
+  "/channels/:id/:id/shared-canvas/emoji-hose",
   "/channels/:id/:id/shared-canvas/lines",
   "/channels/:id/application-commands/search",
   "/channels/:id/attachments",
