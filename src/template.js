@@ -1,10 +1,10 @@
-var ye;
-(function (ye) {
-ye["JOIN"] = "JOIN";
-ye["LISTEN"] = "LISTEN";
-ye["WATCH"] = "WATCH";
-ye["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(ye || (ye = {}));
+var Se;
+(function (Se) {
+Se["JOIN"] = "JOIN";
+Se["LISTEN"] = "LISTEN";
+Se["WATCH"] = "WATCH";
+Se["JOIN_REQUEST"] = "JOIN_REQUEST";
+})(Se || (Se = {}));
 
 var DEVICES;
 (function (DEVICES) {
