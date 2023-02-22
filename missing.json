@@ -4,6 +4,7 @@
   "/activities/shelf",
   "/activities/statistics/applications/:id",
   "/application-directory/applications/:id",
+  "/application-directory/applications/:id/embed",
   "/application-directory/applications/:id/similar",
   "/application-directory/applications/recommended",
   "/application-directory/categories",
