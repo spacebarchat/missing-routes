@@ -283,6 +283,7 @@
   "/users/:id/avatar-decorations/:id.:id",
   "/users/:id/avatars/:id.:id",
   "/users/:id/banners/:id.:id",
+  "/users/:id/messages/search",
   "/users/:id/sessions/:id/activities/:id/JOIN",
   "/users/:id/sessions/:id/activities/:id/metadata",
   "/users/:id/video-filter-assets/:id/:id.:id",
