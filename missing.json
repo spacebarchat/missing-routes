@@ -35,6 +35,7 @@
   "/auth/sessions",
   "/auth/sessions/debug/notifications",
   "/auth/sessions/logout",
+  "/avatar-decoration-presets/:id.:id",
   "/billing/apple/apply-receipt",
   "/billing/apple/jwt-token",
   "/billing/popup-bridge/:id",
