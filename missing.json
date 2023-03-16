@@ -326,6 +326,7 @@
   "/users/@me/billing/user-trial-offer/:id/ack",
   "/users/@me/burst-credits",
   "/users/@me/captcha/verify",
+  "/users/@me/clyde-consent",
   "/users/@me/connections/:id/:id",
   "/users/@me/connections/:id/:id/access-token",
   "/users/@me/connections/:id/:id/refresh",
