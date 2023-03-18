@@ -144,6 +144,7 @@
   "/guilds/:id/auto-moderation/rules/validate",
   "/guilds/:id/banners/:id.:id",
   "/guilds/:id/channel-highlights",
+  "/guilds/:id/creator-monetization/accept-new-terms",
   "/guilds/:id/creator-monetization/accept-terms",
   "/guilds/:id/creator-monetization/enable-requests",
   "/guilds/:id/creator-monetization/enable-requests/:id/accept-terms",
