@@ -24,6 +24,7 @@
   "/applications/:id/subscription-group-listings/:id",
   "/applications/:id/transfer",
   "/applications/public",
+  "/applications/shelf",
   "/applications/trending/global",
   "/attachments/:id",
   "/auth/authorize-ip",
