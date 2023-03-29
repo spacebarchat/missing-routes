@@ -152,6 +152,7 @@
   "/guilds/:id/creator-monetization/enable-requests/:id/accept-terms",
   "/guilds/:id/creator-monetization/marketing/onboarding",
   "/guilds/:id/creator-monetization/ownership-transfer/onboarding",
+  "/guilds/:id/creator-monetization/remove-monetization",
   "/guilds/:id/creator-monetization/requirements",
   "/guilds/:id/creator-monetization/restrictions",
   "/guilds/:id/directory-entries/broadcast",
