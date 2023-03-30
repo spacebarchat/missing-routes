@@ -61,19 +61,19 @@ const findClientRoutes = (source: string): string[] => {
 
 const getFcOpenAPI = async () => {
 	return fetch(
-		"https://raw.githubusercontent.com/fosscord/fosscord-server/maddy/refactor/assets/openapi.json"
+		"https://raw.githubusercontent.com/spacebarchat/server/master/assets/openapi.json"
 	)
 		.then((x) => x.json())
 		.then((x: any) => Object.keys(x.paths));
 };
 
-const compare = (discord: string[], fosscord: string[]) => {
+const compare = (discord: string[], spacebar: string[]) => {
 	const missing = [];
 
 	for (var route of discord) {
 		var regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
 
-		var found = fosscord.find((x) => x.match(regex));
+		var found = spacebar.find((x) => x.match(regex));
 
 		if (!found) {
 			missing.push(route);
@@ -89,8 +89,8 @@ const compare = (discord: string[], fosscord: string[]) => {
 	const fcRoutes = await getFcOpenAPI();
 	const missing = compare(dcRoutes, fcRoutes);
 
-	console.log(`Fosscord is missing ${missing.length}`);
-	console.log(`Fosscord implements ${fcRoutes.length}`);
+	console.log(`Spacebar is missing ${missing.length}`);
+	console.log(`Spacebar implements ${fcRoutes.length}`);
 	console.log(`Discord implements ${dcRoutes.length}`);
 
 	fs.writeFileSync("./missing.json", JSON.stringify(missing.sort(), null, 2));
