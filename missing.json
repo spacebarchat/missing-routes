@@ -37,6 +37,7 @@
   "/auth/sessions/debug/notifications",
   "/auth/sessions/logout",
   "/avatar-decoration-presets/:id.:id",
+  "/badge-icons/:id.png",
   "/billing/apple/apply-receipt",
   "/billing/apple/jwt-token",
   "/billing/apple/subscriptions/:id",
