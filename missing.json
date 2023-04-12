@@ -70,6 +70,7 @@
   "/channels/:id/integrations/:id",
   "/channels/:id/messages/:id/hide-guild-feed",
   "/channels/:id/messages/:id/interaction-data",
+  "/channels/:id/messages/:id/preview",
   "/channels/:id/messages/:id/reactions/:id/:id/:id",
   "/channels/:id/messages/:id/threads",
   "/channels/:id/messages/ack",
