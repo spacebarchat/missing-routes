@@ -59,7 +59,7 @@ const findClientRoutes = (source: string): string[] => {
 	return eval(out);
 };
 
-const getFcOpenAPI = async () => {
+const getSbOpenAPI = async () => {
 	return fetch(
 		"https://raw.githubusercontent.com/spacebarchat/server/master/assets/openapi.json"
 	)
@@ -86,11 +86,11 @@ const compare = (discord: string[], spacebar: string[]) => {
 (async () => {
 	const source = await getClientSource();
 	const dcRoutes = findClientRoutes(source);
-	const fcRoutes = await getFcOpenAPI();
-	const missing = compare(dcRoutes, fcRoutes);
+	const sbRoutes = await getSbOpenAPI();
+	const missing = compare(dcRoutes, sbRoutes);
 
 	console.log(`Spacebar is missing ${missing.length}`);
-	console.log(`Spacebar implements ${fcRoutes.length}`);
+	console.log(`Spacebar implements ${sbRoutes.length}`);
 	console.log(`Discord implements ${dcRoutes.length}`);
 
 	fs.writeFileSync("./missing.json", JSON.stringify(missing.sort(), null, 2));
