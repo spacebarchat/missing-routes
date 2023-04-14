@@ -294,6 +294,7 @@
   "/tutorial/indicators",
   "/tutorial/indicators/:id",
   "/tutorial/indicators/suppress",
+  "/unfurler/embed-urls",
   "/unverified-applications",
   "/unverified-applications/icons",
   "/users/:id/applications/:id/achievements/:id",
