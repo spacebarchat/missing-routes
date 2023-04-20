@@ -124,6 +124,7 @@
   "/family-center/@me",
   "/family-center/@me/link-code",
   "/family-center/more-activity/:id/:id/:id/:id",
+  "/family-center/teen-user/:id",
   "/friend-finder/find-friends",
   "/friend-finder/hide-invite-suggestion",
   "/friend-suggestions",
