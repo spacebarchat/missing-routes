@@ -343,6 +343,7 @@
   "/users/@me/consent",
   "/users/@me/devices/sync",
   "/users/@me/devices/sync-token",
+  "/users/@me/dms/:id",
   "/users/@me/email/verify-code",
   "/users/@me/entitlements/gift-codes",
   "/users/@me/entitlements/gift-codes",
