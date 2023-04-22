@@ -263,7 +263,6 @@
   "/roles/:id/icons/:id.png",
   "/saved-messages",
   "/soundboard-default-sounds",
-  "/soundboard-default-sounds/:id",
   "/soundboard-sounds/:id",
   "/sso",
   "/sso-token",
