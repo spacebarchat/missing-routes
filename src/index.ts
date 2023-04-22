@@ -12,7 +12,7 @@ const getClientSource = async () => {
 	const index = await fetch("https://discord.com/app").then(x => x.text());
 	const script = [...index.matchAll(/[A-Fa-f0-9]{20}.js/g)].reverse()[0];
 
-	return fetch(`https://discord.com/assets/${script[0]}`).then((x) =>
+	return fetch(`https://canary.discord.com/assets/${script[0]}`).then((x) =>
 		x.text()
 	);
 };
@@ -93,5 +93,10 @@ const compare = (discord: string[], spacebar: string[]) => {
 	console.log(`Spacebar implements ${sbRoutes.length}`);
 	console.log(`Discord implements ${dcRoutes.length}`);
 
-	fs.writeFileSync("./missing.json", JSON.stringify(missing.sort(), null, 2));
+	fs.writeFileSync("./missing.json", JSON.stringify({
+		routes: missing.sort(),
+		missing: missing.length,
+		spacebar: sbRoutes.length,
+		discord: dcRoutes.length,
+	}, null, 2));
 })();
