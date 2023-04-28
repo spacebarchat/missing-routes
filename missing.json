@@ -373,6 +373,7 @@
     "/users/@me/phone/verify",
     "/users/@me/pomelo",
     "/users/@me/pomelo-attempt",
+    "/users/@me/pomelo-suggestions",
     "/users/@me/premium-usage",
     "/users/@me/referrals/:id",
     "/users/@me/referrals/:id/preview",
@@ -396,7 +397,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 395,
+  "missing": 396,
   "spacebar": 155,
-  "discord": 525
+  "discord": 526
 }
