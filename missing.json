@@ -297,6 +297,10 @@
     "/unfurler/embed-urls",
     "/unverified-applications",
     "/unverified-applications/icons",
+    "/user-trial-offers",
+    "/user-trial-offers/:id",
+    "/user-trial-offers/:id/unack",
+    "/user-trial-offers/create/:id",
     "/users/:id/applications/:id/achievements/:id",
     "/users/:id/avatar-decorations/:id.:id",
     "/users/:id/avatars/:id.:id",
@@ -397,7 +401,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 396,
+  "missing": 400,
   "spacebar": 154,
-  "discord": 526
+  "discord": 530
 }
