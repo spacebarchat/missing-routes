@@ -176,6 +176,7 @@
     "/guilds/:id/guild-feed/preference",
     "/guilds/:id/home-headers/:id.jpg",
     "/guilds/:id/icons/:id.:id",
+    "/guilds/:id/incident-actions",
     "/guilds/:id/integrations/:id",
     "/guilds/:id/integrations/:id/sync",
     "/guilds/:id/join-admin-server",
@@ -401,7 +402,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 400,
+  "missing": 401,
   "spacebar": 154,
-  "discord": 530
+  "discord": 531
 }
