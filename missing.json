@@ -169,7 +169,7 @@
     "/guilds/:id/discovery-metadata",
     "/guilds/:id/discovery-splashes/:id.jpg",
     "/guilds/:id/entitlements",
-    "/guilds/:id/get-channel-name-emojis",
+    "/guilds/:id/get-channel-emojis",
     "/guilds/:id/guild-feed",
     "/guilds/:id/guild-feed/feature",
     "/guilds/:id/guild-feed/mark-seen",
