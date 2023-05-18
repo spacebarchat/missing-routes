@@ -93,6 +93,7 @@
     "/channels/:id/voice-channel-effects",
     "/channels/preload-messages",
     "/channels/recipients/@me/batch-reject",
+    "/collectibles",
     "/connections/:id/authorize?continuation=true",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=:id",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=device_code&two_way_user_code=:id",
@@ -342,6 +343,7 @@
     "/users/@me/burst-credits",
     "/users/@me/captcha/verify",
     "/users/@me/clyde-consent",
+    "/users/@me/collectibles",
     "/users/@me/connections/:id/:id/refresh",
     "/users/@me/connections/contacts/@me/external-friend-list-entries",
     "/users/@me/connections/contacts/@me/external-friend-list-entries/settings",
@@ -402,7 +404,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 401,
+  "missing": 403,
   "spacebar": 154,
-  "discord": 531
+  "discord": 533
 }
