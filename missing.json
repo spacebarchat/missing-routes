@@ -235,6 +235,7 @@
     "/lobbies/:id/members/:id",
     "/lobbies/:id/send",
     "/lobbies/search",
+    "/messages-log/guild-channels/get",
     "/messages-log/private-channels/get",
     "/metrics",
     "/networking/token",
@@ -404,7 +405,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 403,
+  "missing": 404,
   "spacebar": 154,
-  "discord": 533
+  "discord": 534
 }
