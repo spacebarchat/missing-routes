@@ -192,6 +192,7 @@
     "/guilds/:id/onboarding-prompts/:id",
     "/guilds/:id/onboarding-responses",
     "/guilds/:id/pincode",
+    "/guilds/:id/populate-channel-emojis",
     "/guilds/:id/premium/subscriptions/:id",
     "/guilds/:id/preview",
     "/guilds/:id/requests",
@@ -405,7 +406,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 404,
+  "missing": 405,
   "spacebar": 154,
-  "discord": 534
+  "discord": 535
 }
