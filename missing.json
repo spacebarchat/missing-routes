@@ -195,6 +195,7 @@
     "/guilds/:id/populate-channel-emojis",
     "/guilds/:id/premium/subscriptions/:id",
     "/guilds/:id/preview",
+    "/guilds/:id/products/attachments",
     "/guilds/:id/requests",
     "/guilds/:id/requests/:id",
     "/guilds/:id/requests/:id/ack",
@@ -406,7 +407,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 405,
+  "missing": 406,
   "spacebar": 154,
-  "discord": 535
+  "discord": 536
 }
