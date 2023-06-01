@@ -156,6 +156,7 @@
     "/guilds/:id/banners/:id.:id",
     "/guilds/:id/channel-highlights",
     "/guilds/:id/creator-monetization/accept-new-terms",
+    "/guilds/:id/creator-monetization/accept-new-terms-demonetized",
     "/guilds/:id/creator-monetization/accept-terms",
     "/guilds/:id/creator-monetization/enable-requests",
     "/guilds/:id/creator-monetization/enable-requests/:id/accept-terms",
@@ -407,7 +408,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 406,
+  "missing": 407,
   "spacebar": 154,
-  "discord": 536
+  "discord": 537
 }
