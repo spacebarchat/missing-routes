@@ -196,7 +196,9 @@
     "/guilds/:id/populate-channel-emojis",
     "/guilds/:id/premium/subscriptions/:id",
     "/guilds/:id/preview",
+    "/guilds/:id/products",
     "/guilds/:id/products/attachments",
+    "/guilds/:id/products/listings/:id",
     "/guilds/:id/requests",
     "/guilds/:id/requests/:id",
     "/guilds/:id/requests/:id/ack",
@@ -241,6 +243,7 @@
     "/messages-log/guild-channels/get",
     "/messages-log/private-channels/get",
     "/metrics",
+    "/mfa/finish",
     "/networking/token",
     "/oauth2/@me",
     "/oauth2/allowlist/accept",
@@ -378,6 +381,7 @@
     "/users/@me/mfa/sms/enable",
     "/users/@me/notification-center/items/:id",
     "/users/@me/notification-center/items/:id/ack",
+    "/users/@me/notification-center/items/bulk-ack",
     "/users/@me/outbound-promotions/codes",
     "/users/@me/phone",
     "/users/@me/phone/reverify",
@@ -408,7 +412,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 407,
+  "missing": 411,
   "spacebar": 154,
-  "discord": 537
+  "discord": 541
 }
