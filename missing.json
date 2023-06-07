@@ -155,6 +155,7 @@
     "/guilds/:id/auto-moderation/rules/validate",
     "/guilds/:id/banners/:id.:id",
     "/guilds/:id/channel-highlights",
+    "/guilds/:id/clyde-settings",
     "/guilds/:id/creator-monetization/accept-new-terms",
     "/guilds/:id/creator-monetization/accept-new-terms-demonetized",
     "/guilds/:id/creator-monetization/accept-terms",
@@ -314,7 +315,6 @@
     "/users/:id/avatar-decorations/:id.:id",
     "/users/:id/avatars/:id.:id",
     "/users/:id/banners/:id.:id",
-    "/users/:id/messages/search",
     "/users/:id/sessions/:id/activities/:id/JOIN",
     "/users/:id/sessions/:id/activities/:id/metadata",
     "/users/:id/video-filter-assets/:id/:id.:id",
@@ -349,6 +349,7 @@
     "/users/@me/billing/user-trial-offer/:id/ack",
     "/users/@me/burst-credits",
     "/users/@me/captcha/verify",
+    "/users/@me/channels/broadcast",
     "/users/@me/clyde-consent",
     "/users/@me/collectibles",
     "/users/@me/connections/:id/:id/refresh",
@@ -377,6 +378,7 @@
     "/users/@me/mentions",
     "/users/@me/mentions/:id",
     "/users/@me/message-requests/supplemental-data",
+    "/users/@me/messages/search",
     "/users/@me/mfa/sms/disable",
     "/users/@me/mfa/sms/enable",
     "/users/@me/notification-center/items/:id",
@@ -412,7 +414,7 @@
     "/webhooks/:id",
     "/webhooks/:id/:id"
   ],
-  "missing": 411,
+  "missing": 413,
   "spacebar": 154,
-  "discord": 541
+  "discord": 543
 }
