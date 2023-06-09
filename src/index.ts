@@ -94,9 +94,9 @@ const compare = (discord: string[], spacebar: string[]) => {
 	console.log(`Discord implements ${dcRoutes.length}`);
 
 	fs.writeFileSync("./missing.json", JSON.stringify({
-		routes: missing.sort(),
 		missing: missing.length,
 		spacebar: sbRoutes.length,
 		discord: dcRoutes.length,
+		routes: missing.sort(),
 	}, null, 2));
 })();

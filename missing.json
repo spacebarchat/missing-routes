@@ -1,4 +1,7 @@
 {
+  "missing": 416,
+  "spacebar": 154,
+  "discord": 546,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/test-mode",
@@ -135,6 +138,7 @@
     "/gifs/suggest",
     "/gifs/trending-search",
     "/google-play/downgrade-subscription",
+    "/google-play/emit-google-play-metrics",
     "/google-play/verify-purchase-token",
     "/guild-events",
     "/guild-events/:id/images/:id.:id",
@@ -369,6 +373,8 @@
     "/users/@me/guilds/premium/subscriptions",
     "/users/@me/guilds/premium/subscriptions/cooldown",
     "/users/@me/harvest",
+    "/users/@me/inventory/packs/collect",
+    "/users/@me/inventory/packs/uncollect",
     "/users/@me/invites",
     "/users/@me/join-request-guilds",
     "/users/@me/library/:id",
@@ -413,8 +419,5 @@
     "/users/disable-server-highlight-notifications",
     "/webhooks/:id",
     "/webhooks/:id/:id"
-  ],
-  "missing": 413,
-  "spacebar": 154,
-  "discord": 543
+  ]
 }

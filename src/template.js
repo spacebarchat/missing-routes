@@ -1,10 +1,10 @@
-var de;
-(function (de) {
-de["JOIN"] = "JOIN";
-de["LISTEN"] = "LISTEN";
-de["WATCH"] = "WATCH";
-de["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(de || (de = {}));
+var _e;
+(function (_e) {
+_e["JOIN"] = "JOIN";
+_e["LISTEN"] = "LISTEN";
+_e["WATCH"] = "WATCH";
+_e["JOIN_REQUEST"] = "JOIN_REQUEST";
+})(_e || (_e = {}));
 
 var DEVICES;
 (function (DEVICES) {
