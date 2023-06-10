@@ -1,7 +1,7 @@
 {
-  "missing": 416,
+  "missing": 418,
   "spacebar": 154,
-  "discord": 546,
+  "discord": 548,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/test-mode",
@@ -323,6 +323,7 @@
     "/users/:id/sessions/:id/activities/:id/metadata",
     "/users/:id/video-filter-assets/:id/:id.:id",
     "/users/@me/:id/:id/ack",
+    "/users/@me/affinities/channels",
     "/users/@me/agreements",
     "/users/@me/applications/:id/achievements",
     "/users/@me/applications/:id/entitlement-ticket",
@@ -373,6 +374,7 @@
     "/users/@me/guilds/premium/subscriptions",
     "/users/@me/guilds/premium/subscriptions/cooldown",
     "/users/@me/harvest",
+    "/users/@me/inventory",
     "/users/@me/inventory/packs/collect",
     "/users/@me/inventory/packs/uncollect",
     "/users/@me/invites",
