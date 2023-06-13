@@ -1,7 +1,7 @@
 {
-  "missing": 418,
+  "missing": 419,
   "spacebar": 154,
-  "discord": 548,
+  "discord": 550,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/test-mode",
@@ -97,6 +97,7 @@
     "/channels/preload-messages",
     "/channels/recipients/@me/batch-reject",
     "/collectibles",
+    "/collectibles/:id",
     "/connections/:id/authorize?continuation=true",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=:id",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=device_code&two_way_user_code=:id",
