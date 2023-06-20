@@ -16,6 +16,9 @@ DEVICES["DEVICE_CODE"] = "device_code";
 const x = {};
 x.g = DEVICES;
 
+// Some application ID, was 1096190356233670716 on 20/06/2023
+const Te = ":appid";
+
 const routes = // --- GENERATED_CODE_MARKER ---
 
 // we're inside an eval, so this code is what is implicitly returned
