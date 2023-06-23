@@ -1,10 +1,10 @@
-var _e;
-(function (_e) {
-_e["JOIN"] = "JOIN";
-_e["LISTEN"] = "LISTEN";
-_e["WATCH"] = "WATCH";
-_e["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(_e || (_e = {}));
+var pe;
+(function (pe) {
+pe["JOIN"] = "JOIN";
+pe["LISTEN"] = "LISTEN";
+pe["WATCH"] = "WATCH";
+pe["JOIN_REQUEST"] = "JOIN_REQUEST";
+})(pe || (pe = {}));
 
 var DEVICES;
 (function (DEVICES) {
@@ -17,7 +17,7 @@ const x = {};
 x.g = DEVICES;
 
 // Some application ID, was 1096190356233670716 on 20/06/2023
-const Te = ":appid";
+const Oe = ":id";
 
 const routes = // --- GENERATED_CODE_MARKER ---
 
