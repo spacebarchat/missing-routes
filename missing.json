@@ -15,7 +15,7 @@
     "/application-directory/collection-items/:id/:id.:id",
     "/application-directory/collections",
     "/application-directory/search",
-    "/applications/:appid/app-assets/:id.:id",
+    "/applications/:id/app-assets/:id.:id",
     "/applications/:id/app-icons/:id.png",
     "/applications/:id/branches",
     "/applications/:id/branches",
