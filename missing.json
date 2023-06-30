@@ -1,7 +1,7 @@
 {
-  "missing": 428,
+  "missing": 429,
   "spacebar": 154,
-  "discord": 559,
+  "discord": 560,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -192,6 +192,7 @@
     "/guilds/:id/incident-actions",
     "/guilds/:id/integrations/:id",
     "/guilds/:id/integrations/:id/sync",
+    "/guilds/:id/inventory/settings",
     "/guilds/:id/join-admin-server",
     "/guilds/:id/members/@me",
     "/guilds/:id/members/@me",
