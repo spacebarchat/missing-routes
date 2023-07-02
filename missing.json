@@ -1,7 +1,7 @@
 {
-  "missing": 429,
+  "missing": 430,
   "spacebar": 154,
-  "discord": 560,
+  "discord": 561,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -97,6 +97,7 @@
     "/channels/:id/threads/search",
     "/channels/:id/users/@me/threads/archived/private",
     "/channels/:id/voice-channel-effects",
+    "/channels/broadcast-channels",
     "/channels/preload-messages",
     "/channels/recipients/@me/batch-reject",
     "/collectibles",
