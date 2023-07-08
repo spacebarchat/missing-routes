@@ -1,7 +1,7 @@
 {
-  "missing": 431,
+  "missing": 433,
   "spacebar": 154,
-  "discord": 562,
+  "discord": 564,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -62,6 +62,7 @@
     "/channels/:id/call/ring",
     "/channels/:id/call/stop-ringing",
     "/channels/:id/convert",
+    "/channels/:id/custom-call-sounds",
     "/channels/:id/directory-entries",
     "/channels/:id/directory-entries/counts",
     "/channels/:id/directory-entries/list",
@@ -144,6 +145,7 @@
     "/gifs/trending-search",
     "/google-play/downgrade-subscription",
     "/google-play/emit-google-play-metrics",
+    "/google-play/validate-purchase",
     "/google-play/verify-purchase-token",
     "/guild-events",
     "/guild-events/:id/images/:id.:id",
