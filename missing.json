@@ -1,7 +1,7 @@
 {
-  "missing": 433,
+  "missing": 435,
   "spacebar": 154,
-  "discord": 564,
+  "discord": 566,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -166,6 +166,7 @@
     "/guilds/:id/auto-moderation/rules",
     "/guilds/:id/auto-moderation/rules/:id",
     "/guilds/:id/auto-moderation/rules/validate",
+    "/guilds/:id/avatars/:id.:id",
     "/guilds/:id/banners/:id.:id",
     "/guilds/:id/channel-highlights",
     "/guilds/:id/clyde-settings",
@@ -221,6 +222,7 @@
     "/guilds/:id/requests/:id",
     "/guilds/:id/requests/:id/ack",
     "/guilds/:id/requests/@me",
+    "/guilds/:id/resource-channels/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id/subscription-listings/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id/subscription-listings/:id/archive",
