@@ -1,7 +1,7 @@
 {
-  "missing": 437,
+  "missing": 439,
   "spacebar": 154,
-  "discord": 568,
+  "discord": 570,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -327,6 +327,8 @@
     "/tutorial/indicators/:id",
     "/tutorial/indicators/suppress",
     "/unfurler/embed-urls",
+    "/unique-username/username-attempt-unauthed",
+    "/unique-username/username-suggestions-unauthed",
     "/unverified-applications",
     "/unverified-applications/icons",
     "/user-trial-offers",
