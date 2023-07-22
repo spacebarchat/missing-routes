@@ -1,7 +1,7 @@
 {
-  "missing": 439,
+  "missing": 440,
   "spacebar": 154,
-  "discord": 570,
+  "discord": 571,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -441,6 +441,7 @@
     "/users/disable-email-notifications",
     "/users/disable-server-highlight-notifications",
     "/webhooks/:id",
-    "/webhooks/:id/:id"
+    "/webhooks/:id/:id",
+    "users/@me/mfa/totp/enable/verify"
   ]
 }
