@@ -1,7 +1,7 @@
 {
-  "missing": 440,
+  "missing": 443,
   "spacebar": 154,
-  "discord": 571,
+  "discord": 574,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -84,6 +84,7 @@
     "/channels/:id/messages/:id/threads",
     "/channels/:id/messages/ack",
     "/channels/:id/messages/search",
+    "/channels/:id/messages/search/tabs",
     "/channels/:id/pins/ack",
     "/channels/:id/post-data",
     "/channels/:id/recipients/@me",
@@ -204,6 +205,7 @@
     "/guilds/:id/members/@me",
     "/guilds/:id/members/supplemental",
     "/guilds/:id/members/unusual-dm-activity",
+    "/guilds/:id/messages/search/tabs",
     "/guilds/:id/mfa",
     "/guilds/:id/migrate-command-scope",
     "/guilds/:id/new-member-action/:id",
@@ -407,6 +409,7 @@
     "/users/@me/mentions/:id",
     "/users/@me/message-requests/supplemental-data",
     "/users/@me/messages/search",
+    "/users/@me/messages/search/tabs",
     "/users/@me/mfa/sms/disable",
     "/users/@me/mfa/sms/enable",
     "/users/@me/notification-center/items/:id",
