@@ -13,11 +13,17 @@ DEVICES["DESKTOP"] = "desktop";
 DEVICES["WEB"] = "web";
 DEVICES["DEVICE_CODE"] = "device_code";
 })(DEVICES || (DEVICES = {}));
-const x = {};
-x.g = DEVICES;
+const P = {};
+P.g = DEVICES;
 
 // Some application ID, was 1096190356233670716 on 20/06/2023
 const Oe = ":id";
+
+const window = {
+	GLOBAL_ENV: {
+		WEBAPP_ENDPOINT: "webapp://"
+	}
+}
 
 const routes = // --- GENERATED_CODE_MARKER ---
 
