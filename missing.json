@@ -1,7 +1,7 @@
 {
-  "missing": 452,
+  "missing": 453,
   "spacebar": 154,
-  "discord": 583,
+  "discord": 584,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -99,9 +99,9 @@
     "/channels/:id/threads",
     "/channels/:id/threads/archived/:id",
     "/channels/:id/threads/search",
-    "/channels/:id/topic",
     "/channels/:id/users/@me/threads/archived/private",
     "/channels/:id/voice-channel-effects",
+    "/channels/:id/voice-status",
     "/channels/broadcast-channels",
     "/channels/preload-messages",
     "/channels/recipients/@me/batch-reject",
@@ -370,6 +370,7 @@
     "/users/@me/billing/payments/:id/refund",
     "/users/@me/billing/payments/:id/void",
     "/users/@me/billing/paypal/billing-agreement-tokens",
+    "/users/@me/billing/perks-relevance",
     "/users/@me/billing/premium-likelihood",
     "/users/@me/billing/stripe/payment-intents/:id",
     "/users/@me/billing/stripe/payment-intents/payments/:id",
