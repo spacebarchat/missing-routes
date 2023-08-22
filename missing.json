@@ -1,7 +1,7 @@
 {
-  "missing": 453,
+  "missing": 455,
   "spacebar": 154,
-  "discord": 584,
+  "discord": 586,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -107,6 +107,7 @@
     "/channels/recipients/@me/batch-reject",
     "/collectibles",
     "/collectibles/:id",
+    "/collectibles/categories",
     "/connections/:id/authorize?continuation=true",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=:id",
     "/connections/:id/authorize?two_way_link=true&two_way_link_type=device_code&two_way_user_code=:id",
@@ -387,6 +388,7 @@
     "/users/@me/channels/broadcast",
     "/users/@me/clyde-consent",
     "/users/@me/collectibles",
+    "/users/@me/collectibles/purchases",
     "/users/@me/connections/:id/:id/refresh",
     "/users/@me/connections/contacts/@me/external-friend-list-entries",
     "/users/@me/connections/contacts/@me/external-friend-list-entries/settings",
