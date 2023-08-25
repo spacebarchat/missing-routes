@@ -1,7 +1,7 @@
 {
-  "missing": 455,
+  "missing": 456,
   "spacebar": 154,
-  "discord": 586,
+  "discord": 587,
   "routes": [
     "/activities/:id/:id",
     "/activities/:id/attachment",
@@ -388,6 +388,7 @@
     "/users/@me/channels/broadcast",
     "/users/@me/clyde-consent",
     "/users/@me/collectibles",
+    "/users/@me/collectibles/claim",
     "/users/@me/collectibles/purchases",
     "/users/@me/connections/:id/:id/refresh",
     "/users/@me/connections/contacts/@me/external-friend-list-entries",
