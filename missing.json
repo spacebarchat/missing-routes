@@ -1,8 +1,9 @@
 {
-  "missing": 456,
+  "missing": 458,
   "spacebar": 154,
-  "discord": 587,
+  "discord": 589,
   "routes": [
+    "/:id/force-send-prompt",
     "/activities/:id/:id",
     "/activities/:id/attachment",
     "/activities/:id/test-mode",
@@ -262,6 +263,7 @@
     "/guilds/automations/email-domain-lookup/verify-code",
     "/hub-waitlist/signup",
     "/hypesquad/online",
+    "/initiate-prompts",
     "/integrations/:id/join",
     "/integrations/:id/search",
     "/interactions",
