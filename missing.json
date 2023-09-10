@@ -1,10 +1,9 @@
 {
-  "missing": 457,
+  "missing": 455,
   "spacebar": 154,
-  "discord": 588,
+  "discord": 586,
   "routes": [
     "/:id/force-send-prompt",
-    "/:id/gaming-stats",
     "/activities/:id/:id",
     "/activities/:id/attachment",
     "/activities/:id/test-mode",
@@ -34,7 +33,6 @@
     "/applications/shelf",
     "/applications/trending/global",
     "/attachments/:id",
-    "/attachments/report-false-positive",
     "/auth/authorize-ip",
     "/auth/handoff",
     "/auth/handoff/exchange",
