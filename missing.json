@@ -1,8 +1,9 @@
 {
-  "missing": 461,
+  "missing": 462,
   "spacebar": 154,
-  "discord": 592,
+  "discord": 593,
   "routes": [
+    "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
     "/:id/gaming-stats",
     "/activities/:id/:id",
