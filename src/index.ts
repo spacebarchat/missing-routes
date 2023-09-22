@@ -1,10 +1,10 @@
-import fetch from "node-fetch";
-import * as meriyah from "meriyah";
+import { generate } from "astring";
 import estraverse from "estraverse";
 import ESTree from "estree";
-import { generate } from "astring";
-import fs from "fs";
 import { traverse } from "estree-toolkit";
+import fs from "fs";
+import * as meriyah from "meriyah";
+import fetch from "node-fetch";
 
 const JAVASCRIPT_ENVIRONMENT = fs.readFileSync("./src/template.js").toString();
 
@@ -49,7 +49,7 @@ const findClientRoutes = (source: string): string[] => {
 				) {
 					// this is our routes list
 					const generated = generate(node);
-					out = JAVASCRIPT_ENVIRONMENT.replace("// --- GENERATED_CODE_MARKER ---", generated);
+					out = JAVASCRIPT_ENVIRONMENT.replace("undefined;// --- GENERATED_CODE_MARKER ---", generated);
 					return estraverse.VisitorOption.Break;
 				}
 			},

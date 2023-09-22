@@ -1,7 +1,7 @@
 {
-  "missing": 462,
+  "missing": 465,
   "spacebar": 154,
-  "discord": 593,
+  "discord": 596,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -140,6 +140,7 @@
     "/emojis/:id/source",
     "/entitlements/gift-codes/:id",
     "/entitlements/gift-codes/:id/redeem",
+    "/entitlements/partner-promotions/:id",
     "/family-center/:id/activity",
     "/family-center/@me",
     "/family-center/@me/link-code",
@@ -388,6 +389,8 @@
     "/users/@me/billing/subscriptions/:id/invoices/:id/pay",
     "/users/@me/billing/subscriptions/:id/preview",
     "/users/@me/billing/subscriptions/preview",
+    "/users/@me/billing/user-offer",
+    "/users/@me/billing/user-offer/ack",
     "/users/@me/billing/user-trial-offer",
     "/users/@me/billing/user-trial-offer/:id/ack",
     "/users/@me/burst-credits",
