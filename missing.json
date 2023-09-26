@@ -1,7 +1,7 @@
 {
-  "missing": 465,
+  "missing": 464,
   "spacebar": 154,
-  "discord": 596,
+  "discord": 595,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -401,7 +401,6 @@
     "/users/@me/collectibles-purchases",
     "/users/@me/connections/:id/:id/refresh",
     "/users/@me/connections/contacts/@me/external-friend-list-entries",
-    "/users/@me/connections/contacts/@me/external-friend-list-entries/settings",
     "/users/@me/consent",
     "/users/@me/devices/sync",
     "/users/@me/devices/sync-token",
