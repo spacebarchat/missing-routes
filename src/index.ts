@@ -56,6 +56,9 @@ const findClientRoutes = (source: string): string[] => {
 		},
 	});
 
+	out = out.replaceAll(/..\.JOIN/g, `"JOIN"`);
+	out = out.replaceAll(/.\..\.DEVICE_CODE/g, `"device_code"`);
+
 	return eval(out);
 };
 

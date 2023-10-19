@@ -1,21 +1,3 @@
-var Ee;
-(function (Ee) {
-	Ee["JOIN"] = "JOIN";
-	Ee["LISTEN"] = "LISTEN";
-	Ee["WATCH"] = "WATCH";
-	Ee["JOIN_REQUEST"] = "JOIN_REQUEST";
-})(Ee || (Ee = {}));
-
-var DEVICES;
-(function (DEVICES) {
-	DEVICES["MOBILE"] = "mobile";
-	DEVICES["DESKTOP"] = "desktop";
-	DEVICES["WEB"] = "web";
-	DEVICES["DEVICE_CODE"] = "device_code";
-})(DEVICES || (DEVICES = {}));
-const x = {};
-x.g = DEVICES;
-
 // Some application ID, was 1096190356233670716 on 20/06/2023
 const Oe = ":id";
 
