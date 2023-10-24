@@ -1,7 +1,7 @@
 {
-  "missing": 479,
+  "missing": 480,
   "spacebar": 154,
-  "discord": 610,
+  "discord": 611,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -421,6 +421,7 @@
     "/users/@me/devices/sync-token",
     "/users/@me/dms/:id",
     "/users/@me/email/verify-code",
+    "/users/@me/emoji-captions",
     "/users/@me/entitlements/gift-codes",
     "/users/@me/entitlements/gift-codes",
     "/users/@me/entitlements/gift-codes/:id",
