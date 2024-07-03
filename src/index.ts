@@ -1,5 +1,4 @@
 import { generate } from "astring";
-import estraverse from "estraverse";
 import ESTree from "estree";
 import { traverse } from "estree-toolkit";
 import fs from "fs";
@@ -9,8 +8,8 @@ import fetch from "node-fetch";
 const JAVASCRIPT_ENVIRONMENT = fs.readFileSync("./src/template.js").toString();
 
 const getClientSource = async () => {
-	const index = await fetch("https://discord.com/app").then(x => x.text());
-	const script = [...index.matchAll(/[A-Fa-f0-9]{20}.js/g)].reverse()[0];
+	const index = await fetch("https://canary.discord.com/app").then(x => x.text());
+	const script = [...index.matchAll(/web.[A-Fa-f0-9]{20}.js/g)].reverse()[0];
 
 	return fetch(`https://canary.discord.com/assets/${script[0]}`).then((x) =>
 		x.text()
@@ -24,11 +23,12 @@ const MeriyahOptions: meriyah.Options = {
 const findClientRoutes = (source: string): string[] => {
 	const tree = meriyah.parseModule(source, MeriyahOptions) as ESTree.Node;
 
+	let called = 0;
 	let out = "";
 	traverse(tree, {
 		$: { scope: true },
 		CallExpression: {
-			enter: (path, state) => {
+			enter: (path) => {
 				const node = path.node;
 				if (!node) return;
 				if (
@@ -44,17 +44,23 @@ const findClientRoutes = (source: string): string[] => {
 						(x) =>
 							x.type == "Property" &&
 							x.key.type == "Identifier" &&
-							x.key.name == "USER"
+							x.key.name == "USER" &&
+							x.value.type == "ArrowFunctionExpression"
 					)
 				) {
+					called++;
+
 					// this is our routes list
 					const generated = generate(node);
 					out = JAVASCRIPT_ENVIRONMENT.replace("undefined;// --- GENERATED_CODE_MARKER ---", generated);
-					return estraverse.VisitorOption.Break;
 				}
 			},
 		},
 	});
+
+	if (called > 1) {
+		console.warn("\nWarning: More than one result was found while traversing the AST. This will probably break the output.\n");
+	}
 
 	out = out.replaceAll(/..\.JOIN/g, `"JOIN"`);
 	out = out.replaceAll(/.\..\.DEVICE_CODE/g, `"device_code"`);
@@ -73,10 +79,10 @@ const getSbOpenAPI = async () => {
 const compare = (discord: string[], spacebar: string[]) => {
 	const missing = [];
 
-	for (var route of discord) {
-		var regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
+	for (const route of discord) {
+		const regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
 
-		var found = spacebar.find((x) => x.match(regex));
+		const found = spacebar.find((x) => x.match(regex));
 
 		if (!found) {
 			missing.push(route);
