@@ -79,7 +79,7 @@ const getSbOpenAPI = async () => {
 const compare = (discord: string[], spacebar: string[]) => {
 	const missing = [];
 
-	for (var route of discord) {
+	for (const route of discord) {
 		const regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
 
 		const found = spacebar.find((x) => x.match(regex));
