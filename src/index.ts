@@ -7,6 +7,14 @@ import fetch from "node-fetch";
 
 const JAVASCRIPT_ENVIRONMENT = fs.readFileSync("./src/template.js").toString();
 
+const ignoredAdditional = new Set([
+	// Not used in the client
+	"/gateway",
+	"/gateway/bot",
+	"/guilds/{guild_id}/widget.json",
+	"/guilds/{guild_id}/widget.png",
+]);
+
 const getClientSource = async () => {
 	const index = await fetch("https://canary.discord.com/app").then(x => x.text());
 	const script = [...index.matchAll(/web.[A-Fa-f0-9]{20}.js/g)].reverse()[0];
@@ -73,30 +81,41 @@ const getSbOpenAPI = async () => {
 		"https://raw.githubusercontent.com/spacebarchat/server/master/assets/openapi.json"
 	)
 		.then((x) => x.json())
-		.then((x: any) => Object.keys(x.paths));
+		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "")));
 };
 
 const compare = (discord: string[], spacebar: string[]) => {
 	const missing = [];
+	const additional = [];
 
 	for (const route of discord) {
 		const regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
 
-		const found = spacebar.find((x) => x.match(regex));
+		const found = spacebar.some((x) => x.match(regex));
 
 		if (!found) {
 			missing.push(route);
 		}
 	}
 
-	return missing;
+	for (const route of spacebar) {
+		const regex = route.replaceAll("/", "\\/").replace(/{.*}/g, ":id");
+
+		const found = discord.some((x) => x.match(regex));
+
+		if (!found && !ignoredAdditional.has(route)) {
+			additional.push(route);
+		}
+	}
+
+	return [missing, additional];
 };
 
 (async () => {
 	const source = await getClientSource();
 	const dcRoutes = findClientRoutes(source);
 	const sbRoutes = await getSbOpenAPI();
-	const missing = compare(dcRoutes, sbRoutes);
+	const [missing, additional] = compare(dcRoutes, sbRoutes);
 
 	console.log(`Spacebar is missing ${missing.length}`);
 	console.log(`Spacebar implements ${sbRoutes.length}`);
@@ -107,5 +126,6 @@ const compare = (discord: string[], spacebar: string[]) => {
 		spacebar: sbRoutes.length,
 		discord: dcRoutes.length,
 		routes: missing.sort(),
+		additional: additional.sort(),
 	}, null, 2));
 })();
