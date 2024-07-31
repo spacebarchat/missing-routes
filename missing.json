@@ -1,7 +1,7 @@
 {
-  "missing": 541,
+  "missing": 543,
   "spacebar": 155,
-  "discord": 671,
+  "discord": 673,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -146,6 +146,7 @@
     "/consoles/xbox-handoff",
     "/content-inventory/users/:id/outbox",
     "/content-inventory/users/@me/applications/:id",
+    "/content-inventory/users/@me/outbox/entries/id/:id/history",
     "/content-inventory/users/@me/similar-games/:id",
     "/content-inventory/users/@me/spotify",
     "/content-inventory/users/@me?refresh_token=:id",
@@ -458,6 +459,7 @@
     "/users/@me/channels/broadcast",
     "/users/@me/claim-premium-collectibles-product",
     "/users/@me/clan",
+    "/users/@me/collectibles-marketing",
     "/users/@me/collectibles-purchases",
     "/users/@me/connections/:id/:id/refresh",
     "/users/@me/connections/contacts/@me/external-friend-list-entries",
