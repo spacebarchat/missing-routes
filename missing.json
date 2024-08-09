@@ -1,7 +1,7 @@
 {
-  "missing": 543,
-  "spacebar": 155,
-  "discord": 673,
+  "missing": 542,
+  "spacebar": 157,
+  "discord": 674,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -69,6 +69,7 @@
     "/billing/verify-purchase-request",
     "/bogo-promotions",
     "/branches",
+    "/captcha/decider",
     "/changelogs/@me/messages",
     "/channels/:id/:id/shared-canvas/emoji-hose",
     "/channels/:id/:id/shared-canvas/emoji-hose/:id",
@@ -543,8 +544,6 @@
     "/users/username/:id",
     "/voice/:id/match-public-key",
     "/voice/public-keys",
-    "/webhooks/:id",
-    "/webhooks/:id/:id",
     "webapp:///billing/premium/subscribe/login-handoff?handoff_key=:id&handoff_token=:id&destination=:id"
   ],
   "additional": [
