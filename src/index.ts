@@ -7,13 +7,8 @@ import fetch from "node-fetch";
 
 const JAVASCRIPT_ENVIRONMENT = fs.readFileSync("./src/template.js").toString();
 
-const ignoredAdditional = new Set([
-	// Not used in the client
-	"/gateway",
-	"/gateway/bot",
-	"/guilds/{guild_id}/widget.json",
-	"/guilds/{guild_id}/widget.png",
-]);
+// Not used in the client
+const ignoredAdditional: Set<string> = new Set([]);
 
 const getClientSource = async () => {
 	const index = await fetch("https://canary.discord.com/app").then(x => x.text());
@@ -76,12 +71,20 @@ const findClientRoutes = (source: string): string[] => {
 	return eval(out);
 };
 
+const getDcOpenAPI = async () => {
+	return fetch(
+		"https://github.com/discord/discord-api-spec/raw/main/specs/openapi_preview.json"
+	)
+		.then((x) => x.json())
+		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "").replace(/{\w+?}/g, ":id")));
+};
+
 const getSbOpenAPI = async () => {
 	return fetch(
 		"https://raw.githubusercontent.com/spacebarchat/server/master/assets/openapi.json"
 	)
 		.then((x) => x.json())
-		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "")));
+		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "").replace(/{\w+?}/g, ":id")));
 };
 
 const compare = (discord: string[], spacebar: string[]) => {
@@ -89,7 +92,7 @@ const compare = (discord: string[], spacebar: string[]) => {
 	const additional = [];
 
 	for (const route of discord) {
-		const regex = route.replaceAll("/", "\\/").replaceAll(":id", "{.*}");
+		const regex = route.replaceAll("/", "\\/");
 
 		const found = spacebar.some((x) => x.match(regex));
 
@@ -99,7 +102,7 @@ const compare = (discord: string[], spacebar: string[]) => {
 	}
 
 	for (const route of spacebar) {
-		const regex = route.replaceAll("/", "\\/").replace(/{.*}/g, ":id");
+		const regex = route.replaceAll("/", "\\/");
 
 		const found = discord.some((x) => x.match(regex));
 
@@ -113,7 +116,9 @@ const compare = (discord: string[], spacebar: string[]) => {
 
 (async () => {
 	const source = await getClientSource();
-	const dcRoutes = findClientRoutes(source);
+	const dcOpenAPI = await getDcOpenAPI();
+	const dcRoutes: string[] = Array.from(new Set([...findClientRoutes(source), ...dcOpenAPI]));
+
 	const sbRoutes = await getSbOpenAPI();
 	const [missing, additional] = compare(dcRoutes, sbRoutes);
 
