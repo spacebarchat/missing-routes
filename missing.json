@@ -1,7 +1,7 @@
 {
-  "missing": 542,
+  "missing": 544,
   "spacebar": 157,
-  "discord": 674,
+  "discord": 676,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -157,6 +157,7 @@
     "/discovery/:id",
     "/discovery/:id/clan",
     "/discovery/games/all",
+    "/discovery/recommendations",
     "/discovery/valid-term",
     "/drops/@me",
     "/drops/eligibility",
@@ -427,6 +428,7 @@
     "/users/@me/background-sync",
     "/users/@me/billing/adyen/payment-methods",
     "/users/@me/billing/apple/trial-offer-signature",
+    "/users/@me/billing/campaign-context",
     "/users/@me/billing/checkout-recovery",
     "/users/@me/billing/churn-user-offer",
     "/users/@me/billing/eligible-application-subscription-guilds",
