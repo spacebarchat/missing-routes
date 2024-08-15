@@ -1,7 +1,7 @@
 {
-  "missing": 566,
+  "missing": 567,
   "spacebar": 157,
-  "discord": 709,
+  "discord": 710,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -311,6 +311,7 @@
     "/guilds/:id/splashes/:id.jpg",
     "/guilds/:id/threads/active",
     "/guilds/:id/top-emojis",
+    "/guilds/:id/top-games",
     "/guilds/:id/top-read-channels",
     "/guilds/:id/users/:id/avatars/:id.:id",
     "/guilds/:id/users/:id/banners/:id.:id",
