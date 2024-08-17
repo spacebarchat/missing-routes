@@ -1,7 +1,7 @@
 {
-  "missing": 567,
+  "missing": 568,
   "spacebar": 157,
-  "discord": 710,
+  "discord": 711,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -171,6 +171,7 @@
     "/discovery/:id",
     "/discovery/:id/clan",
     "/discovery/games/all",
+    "/discovery/guilds",
     "/discovery/recommendations",
     "/discovery/valid-term",
     "/drops/@me",
