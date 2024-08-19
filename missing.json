@@ -1,6 +1,6 @@
 {
-  "missing": 568,
-  "spacebar": 157,
+  "missing": 567,
+  "spacebar": 158,
   "discord": 711,
   "routes": [
     "/:id/:id/update-gaming-stats",
@@ -110,7 +110,6 @@
     "/channels/:id/media-post-preview",
     "/channels/:id/messages/:id/hide-guild-feed",
     "/channels/:id/messages/:id/interaction-data",
-    "/channels/:id/messages/:id/reactions/:id/:id/:id",
     "/channels/:id/messages/:id/reactions/:id/@me",
     "/channels/:id/messages/:id/threads",
     "/channels/:id/messages/ack",
