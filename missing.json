@@ -1,7 +1,7 @@
 {
-  "missing": 567,
+  "missing": 569,
   "spacebar": 158,
-  "discord": 711,
+  "discord": 713,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -284,6 +284,7 @@
     "/guilds/:id/requests/:id",
     "/guilds/:id/requests/:id/ack",
     "/guilds/:id/requests/@me",
+    "/guilds/:id/requests/id/:id",
     "/guilds/:id/resource-channels/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id/subscription-listings/:id",
@@ -540,6 +541,7 @@
     "/users/@me/referrals/:id/preview",
     "/users/@me/referrals/eligibility",
     "/users/@me/referrals/eligible-users",
+    "/users/@me/referrals/incentive-eligibility",
     "/users/@me/relationships/bulk",
     "/users/@me/remote-auth",
     "/users/@me/remote-auth/cancel",
