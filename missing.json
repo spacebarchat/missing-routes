@@ -1,7 +1,7 @@
 {
-  "missing": 569,
+  "missing": 570,
   "spacebar": 158,
-  "discord": 713,
+  "discord": 714,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -20,6 +20,7 @@
     "/application-directory/collection-items/:id/:id.:id",
     "/applications-with-assets",
     "/applications/:id/activities/:id/instances/:id/leave",
+    "/applications/:id/activity-instance/:id",
     "/applications/:id/app-assets/:id.:id",
     "/applications/:id/app-icons/:id.png",
     "/applications/:id/application-command-index",
