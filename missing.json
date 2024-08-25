@@ -589,7 +589,7 @@
     "/policies/instance/domains",
     "/policies/instance/limits",
     "/policies/stats",
-    "/scheduled-maintenances/upcoming_json/scheduled-maintenances/upcoming.json",
+    "/scheduled-maintenances/upcoming.json",
     "/store/published-listings/applications/:id/subscription-plans",
     "/track",
     "/updates",
