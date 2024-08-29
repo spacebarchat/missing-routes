@@ -1,7 +1,7 @@
 {
-  "missing": 570,
+  "missing": 571,
   "spacebar": 158,
-  "discord": 714,
+  "discord": 715,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -369,6 +369,7 @@
     "/quests/:id/preview/status",
     "/quests/:id/reward-code",
     "/quests/@me",
+    "/quests/@me/claimed",
     "/referrals/:id",
     "/report/options",
     "/reporting/:id",
