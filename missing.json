@@ -1,7 +1,7 @@
 {
-  "missing": 569,
+  "missing": 572,
   "spacebar": 158,
-  "discord": 713,
+  "discord": 716,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -258,6 +258,7 @@
     "/guilds/:id/integrations/:id/sync",
     "/guilds/:id/join-admin-server",
     "/guilds/:id/join-wfs-server",
+    "/guilds/:id/leaderboards/:id",
     "/guilds/:id/members-search",
     "/guilds/:id/members/@me",
     "/guilds/:id/members/search",
@@ -548,6 +549,8 @@
     "/users/@me/remote-auth/cancel",
     "/users/@me/remote-auth/finish",
     "/users/@me/remote-auth/login",
+    "/users/@me/saved-guilds",
+    "/users/@me/saved-guilds-bulk",
     "/users/@me/saved-messages",
     "/users/@me/saved-messages/:id/:id",
     "/users/@me/scheduled-events",
