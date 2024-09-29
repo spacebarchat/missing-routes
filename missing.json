@@ -1,7 +1,7 @@
 {
-  "missing": 568,
+  "missing": 569,
   "spacebar": 158,
-  "discord": 712,
+  "discord": 713,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -153,6 +153,7 @@
     "/clan/:id/settings",
     "/collectibles-categories",
     "/collectibles-products/:id",
+    "/connections/:id/callback/session-handoff",
     "/connections/:id/link-dispatch-auth-callback",
     "/consoles/:id/devices",
     "/consoles/:id/devices/:id/commands",
