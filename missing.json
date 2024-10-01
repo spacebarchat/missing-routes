@@ -1,7 +1,7 @@
 {
-  "missing": 569,
+  "missing": 571,
   "spacebar": 158,
-  "discord": 713,
+  "discord": 715,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -201,6 +201,7 @@
     "/gravity-content",
     "/gravity-custom-channel-scores",
     "/gravity-custom-guild-score",
+    "/gravity-recommended-guilds",
     "/guild-events",
     "/guild-events/:id/images/:id.:id",
     "/guilds/:id/ack/:id/:id",
@@ -316,6 +317,7 @@
     "/guilds/automations/email-domain-lookup",
     "/guilds/automations/email-domain-lookup/verify",
     "/guilds/automations/email-domain-lookup/verify-code",
+    "/guilds/gravity-join",
     "/hub-waitlist/signup",
     "/hypesquad/online",
     "/initiate-prompts",
