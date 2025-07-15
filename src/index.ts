@@ -12,7 +12,7 @@ const ignoredAdditional: Set<string> = new Set([]);
 
 const getClientSource = async () => {
 	const index = await fetch("https://canary.discord.com/app").then(x => x.text());
-	const script = [...index.matchAll(/web.[A-Fa-f0-9]{20}.js/g)].reverse()[0];
+	const script = [...index.matchAll(/web\.[A-Fa-f0-9]{16}\.js/g)].reverse()[0];
 
 	return fetch(`https://canary.discord.com/assets/${script[0]}`).then((x) =>
 		x.text()
