@@ -1,7 +1,7 @@
 {
-  "missing": 622,
+  "missing": 621,
   "spacebar": 164,
-  "discord": 770,
+  "discord": 769,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -545,7 +545,6 @@
     "/users/@me/gravity-attachments-upload",
     "/users/@me/gravity-icymi",
     "/users/@me/gravity-icymi-legacy",
-    "/users/@me/gravity-icymi-negative",
     "/users/@me/guilds/:id/member",
     "/users/@me/guilds/:id/member/ack-dm-upsell-settings",
     "/users/@me/guilds/integration-application-ids",
