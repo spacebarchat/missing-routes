@@ -1,7 +1,7 @@
 {
-  "missing": 621,
+  "missing": 620,
   "spacebar": 164,
-  "discord": 769,
+  "discord": 768,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -563,7 +563,6 @@
     "/users/@me/mentions",
     "/users/@me/mentions/:id",
     "/users/@me/message-requests/supplemental-data",
-    "/users/@me/messages/search",
     "/users/@me/messages/search/tabs",
     "/users/@me/mfa/sms/disable",
     "/users/@me/mfa/sms/enable",
