@@ -1,7 +1,7 @@
 {
-  "missing": 620,
+  "missing": 621,
   "spacebar": 164,
-  "discord": 768,
+  "discord": 769,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -129,6 +129,7 @@
     "/channels/:id/messages/:id/reactions/:id/@me",
     "/channels/:id/messages/:id/threads",
     "/channels/:id/messages/ack",
+    "/channels/:id/messages/announcement",
     "/channels/:id/messages/pins",
     "/channels/:id/messages/pins/:id",
     "/channels/:id/messages/search",
