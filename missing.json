@@ -1,7 +1,7 @@
 {
-  "missing": 621,
+  "missing": 622,
   "spacebar": 164,
-  "discord": 769,
+  "discord": 770,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -613,6 +613,7 @@
     "/users/@me/video-filters/assets/:id/last-used",
     "/users/@me/virtual-currency/balance",
     "/users/@me/warp/license",
+    "/users/@me/widgets",
     "/users/disable-email-notifications",
     "/users/disable-server-highlight-notifications",
     "/virtual-currency/skus/:id/redeem",
