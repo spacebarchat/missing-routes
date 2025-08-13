@@ -1,7 +1,7 @@
 {
-  "missing": 622,
+  "missing": 625,
   "spacebar": 164,
-  "discord": 770,
+  "discord": 773,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -513,6 +513,7 @@
     "/users/@me/billing/subscriptions/:id/invoices",
     "/users/@me/billing/subscriptions/:id/invoices/:id/pay",
     "/users/@me/billing/subscriptions/:id/preview",
+    "/users/@me/billing/subscriptions/:id/reactivation-offers/:id/redeem",
     "/users/@me/billing/subscriptions/:id/reward-eligibility",
     "/users/@me/billing/subscriptions/:id/rewards",
     "/users/@me/billing/subscriptions/preview",
@@ -573,6 +574,8 @@
     "/users/@me/notification-center/items/:id/ack",
     "/users/@me/notification-center/items/bulk-ack",
     "/users/@me/notification-settings",
+    "/users/@me/notification-settings/muted-games",
+    "/users/@me/notification-settings/muted-games/:id",
     "/users/@me/notification-settings/snapshots",
     "/users/@me/notification-settings/snapshots/:id",
     "/users/@me/notification-settings/snapshots/:id/restore-guilds",
