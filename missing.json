@@ -1,7 +1,7 @@
 {
-  "missing": 625,
+  "missing": 628,
   "spacebar": 164,
-  "discord": 773,
+  "discord": 776,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -203,6 +203,7 @@
     "/friend-suggestions/:id",
     "/game-invite/@me",
     "/game-invite/@me/:id",
+    "/games/detectable",
     "/gifs/select",
     "/gifs/suggest",
     "/gifs/trending-search",
@@ -413,6 +414,7 @@
     "/reporting/unauthenticated/menu/:id",
     "/reports",
     "/reports/channels/:id/messages/:id",
+    "/roblox-applications-supplemental-data",
     "/roles/:id/icons/:id.png",
     "/safety-flows/resend/email/reverification/pincode",
     "/safety-flows/task",
@@ -617,6 +619,7 @@
     "/users/@me/virtual-currency/balance",
     "/users/@me/warp/license",
     "/users/@me/widgets",
+    "/users/@me/widgets/suggested-games",
     "/users/disable-email-notifications",
     "/users/disable-server-highlight-notifications",
     "/virtual-currency/skus/:id/redeem",
