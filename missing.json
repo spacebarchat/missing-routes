@@ -1,7 +1,7 @@
 {
-  "missing": 628,
+  "missing": 629,
   "spacebar": 164,
-  "discord": 776,
+  "discord": 777,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -50,6 +50,7 @@
     "/applications/:id/guilds/:id/commands/permissions",
     "/applications/:id/managed-links/:id",
     "/applications/:id/payment-payout-groups",
+    "/applications/:id/proxy-tickets",
     "/applications/:id/public",
     "/applications/:id/quick-links/:id",
     "/applications/:id/role-connections/metadata",
