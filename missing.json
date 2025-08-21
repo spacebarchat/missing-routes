@@ -1,7 +1,7 @@
 {
-  "missing": 629,
+  "missing": 630,
   "spacebar": 164,
-  "discord": 777,
+  "discord": 778,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -166,6 +166,7 @@
     "/channels/recipients/@me/batch-reject",
     "/chat-wallpapers",
     "/collectibles-categories",
+    "/collectibles-categories/v2",
     "/collectibles-products/:id",
     "/collectibles-shop",
     "/connections/:id/callback/session-handoff",
