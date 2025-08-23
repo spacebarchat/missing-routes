@@ -1,7 +1,7 @@
 {
-  "missing": 630,
+  "missing": 629,
   "spacebar": 164,
-  "discord": 778,
+  "discord": 777,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -90,7 +90,6 @@
     "/billing/popup-bridge/:id",
     "/billing/popup-bridge/:id/callback",
     "/billing/popup-bridge/:id/callback/:id/:id",
-    "/billing/premium/subscribe?plan_id=:id&gift=:id&load_id=:id&payment_method_type=:id",
     "/billing/verify-purchase-request",
     "/bogo-promotions",
     "/branches",
