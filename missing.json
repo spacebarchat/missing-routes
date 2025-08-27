@@ -1,7 +1,7 @@
 {
-  "missing": 629,
+  "missing": 626,
   "spacebar": 164,
-  "discord": 777,
+  "discord": 774,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -265,8 +265,6 @@
     "/guilds/:id/integrations/:id",
     "/guilds/:id/integrations/:id/sync",
     "/guilds/:id/join-admin-server",
-    "/guilds/:id/leaderboards/:id",
-    "/guilds/:id/leaderboards/:id/settings",
     "/guilds/:id/members-search",
     "/guilds/:id/members/@me",
     "/guilds/:id/members/search",
@@ -612,7 +610,6 @@
     "/users/@me/survey",
     "/users/@me/survey/:id/seen",
     "/users/@me/tenure-reward/sync",
-    "/users/@me/update-league-of-legends-leaderboard",
     "/users/@me/valid-collectibles-gift-recipient",
     "/users/@me/video-filters/assets",
     "/users/@me/video-filters/assets/:id",
