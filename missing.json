@@ -1,7 +1,7 @@
 {
-  "missing": 626,
+  "missing": 629,
   "spacebar": 164,
-  "discord": 774,
+  "discord": 777,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -195,6 +195,9 @@
     "/entitlements/gift-codes/:id/redeem",
     "/entitlements/partner-promotions/:id",
     "/family-center/:id/activity",
+    "/family-center/:id/consents",
+    "/family-center/:id/settings-and-consents",
+    "/family-center/:id/settings-proto",
     "/family-center/@me",
     "/family-center/@me/link-code",
     "/family-center/more-activity/:id/:id/:id/:id",
