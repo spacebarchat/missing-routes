@@ -1,7 +1,7 @@
 {
-  "missing": 629,
+  "missing": 630,
   "spacebar": 164,
-  "discord": 777,
+  "discord": 778,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -163,7 +163,6 @@
     "/channels/:id/voice-status",
     "/channels/preload-messages",
     "/channels/recipients/@me/batch-reject",
-    "/chat-wallpapers",
     "/collectibles-categories",
     "/collectibles-categories/v2",
     "/collectibles-products/:id",
@@ -452,6 +451,7 @@
     "/store/skus/:id/listings",
     "/store/skus/:id/purchase",
     "/streams/:id/notify",
+    "/streams/:id/notify-v2",
     "/streams/:id/preview",
     "/streams/:id/stream",
     "/subscription-plans/:id/guild-role-subscription-group-listing",
@@ -517,6 +517,7 @@
     "/users/@me/billing/subscriptions/:id/invoices",
     "/users/@me/billing/subscriptions/:id/invoices/:id/pay",
     "/users/@me/billing/subscriptions/:id/preview",
+    "/users/@me/billing/subscriptions/:id/promotion-reward",
     "/users/@me/billing/subscriptions/:id/reactivation-offers/:id/redeem",
     "/users/@me/billing/subscriptions/:id/reward-eligibility",
     "/users/@me/billing/subscriptions/:id/rewards",
