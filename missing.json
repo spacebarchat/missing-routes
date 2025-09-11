@@ -1,7 +1,7 @@
 {
-  "missing": 630,
+  "missing": 632,
   "spacebar": 164,
-  "discord": 778,
+  "discord": 780,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -11,6 +11,7 @@
     "/activities/applications/:id/activity-instances/:id/join",
     "/activities/shelf",
     "/activities/statistics/applications/:id",
+    "/age-verification/methods",
     "/age-verification/test",
     "/age-verification/verify",
     "/ai/fix-grammar",
@@ -450,6 +451,7 @@
     "/store/skus/:id",
     "/store/skus/:id/listings",
     "/store/skus/:id/purchase",
+    "/storefront/collections/:id",
     "/streams/:id/notify",
     "/streams/:id/notify-v2",
     "/streams/:id/preview",
