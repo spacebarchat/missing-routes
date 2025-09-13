@@ -1,7 +1,7 @@
 {
-  "missing": 632,
+  "missing": 633,
   "spacebar": 164,
-  "discord": 780,
+  "discord": 781,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -258,6 +258,7 @@
     "/guilds/:id/discovery-metadata",
     "/guilds/:id/discovery-splashes/:id.jpg",
     "/guilds/:id/entitlements",
+    "/guilds/:id/game-servers",
     "/guilds/:id/guild-feed",
     "/guilds/:id/guild-feed/feature",
     "/guilds/:id/guild-feed/mark-seen",
@@ -394,6 +395,7 @@
     "/quests/:id/dismissible-content/:id/dismiss",
     "/quests/:id/enroll",
     "/quests/:id/heartbeat",
+    "/quests/:id/preview",
     "/quests/:id/preview/complete",
     "/quests/:id/preview/dismissibility",
     "/quests/:id/preview/status",
@@ -453,7 +455,6 @@
     "/store/skus/:id/purchase",
     "/storefront/collections/:id",
     "/streams/:id/notify",
-    "/streams/:id/notify-v2",
     "/streams/:id/preview",
     "/streams/:id/stream",
     "/subscription-plans/:id/guild-role-subscription-group-listing",
