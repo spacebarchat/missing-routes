@@ -1,7 +1,7 @@
 {
-  "missing": 633,
+  "missing": 634,
   "spacebar": 164,
-  "discord": 781,
+  "discord": 782,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -88,6 +88,7 @@
     "/billing/apple/subscriptions/:id",
     "/billing/orders",
     "/billing/orders/:id",
+    "/billing/orders/:id/sign",
     "/billing/popup-bridge/:id",
     "/billing/popup-bridge/:id/callback",
     "/billing/popup-bridge/:id/callback/:id/:id",
