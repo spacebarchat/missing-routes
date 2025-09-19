@@ -1,7 +1,7 @@
 {
-  "missing": 634,
+  "missing": 637,
   "spacebar": 164,
-  "discord": 782,
+  "discord": 785,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -259,6 +259,7 @@
     "/guilds/:id/discovery-metadata",
     "/guilds/:id/discovery-splashes/:id.jpg",
     "/guilds/:id/entitlements",
+    "/guilds/:id/game-server-regions",
     "/guilds/:id/game-servers",
     "/guilds/:id/guild-feed",
     "/guilds/:id/guild-feed/feature",
@@ -476,6 +477,7 @@
     "/user-offers/create/:id/:id",
     "/user-offers/reverse-trial",
     "/user-profile-effects",
+    "/users/:id/application-identities",
     "/users/:id/avatars/:id.:id",
     "/users/:id/banners/:id.:id",
     "/users/:id/sessions/:id/activities/:id/1",
@@ -625,6 +627,7 @@
     "/users/@me/virtual-currency/balance",
     "/users/@me/warp/license",
     "/users/@me/widgets",
+    "/users/@me/widgets/application-widget-application-ids",
     "/users/@me/widgets/suggested-games",
     "/users/disable-email-notifications",
     "/users/disable-server-highlight-notifications",
