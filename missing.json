@@ -1,7 +1,7 @@
 {
-  "missing": 637,
+  "missing": 639,
   "spacebar": 164,
-  "discord": 785,
+  "discord": 787,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -17,6 +17,7 @@
     "/ai/fix-grammar",
     "/ai/title",
     "/ai/translate",
+    "/apex/experiments",
     "/apex/experiments/metadata",
     "/app-recommendations",
     "/application-directory-static/applications/:id",
@@ -639,6 +640,7 @@
     "/webhooks/:id/:id/messages/:id",
     "/webhooks/:id/:id/messages/@original",
     "/webhooks/:id/:id/slack",
+    "/wishlists/:id",
     "webapp:///billing/premium/subscribe/login-handoff?handoff_key=:id&handoff_token=:id&destination=:id"
   ],
   "additional": [
