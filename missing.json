@@ -1,7 +1,7 @@
 {
-  "missing": 643,
+  "missing": 645,
   "spacebar": 164,
-  "discord": 791,
+  "discord": 792,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -9,6 +9,7 @@
     "/activities/:id/:id",
     "/activities/:id/test-mode",
     "/activities/applications/:id/activity-instances/:id/join",
+    "/activities/discord-config/:id",
     "/activities/shelf",
     "/activities/statistics/applications/:id",
     "/age-verification/methods",
@@ -391,6 +392,7 @@
     "/premium-marketing",
     "/premium-marketing/@me/campaigns/:id/eligibility",
     "/private/bug-reports",
+    "/promotions",
     "/quests/:id",
     "/quests/:id/claim-reward",
     "/quests/:id/console/start",
@@ -653,6 +655,7 @@
     "/applications/:id/bot",
     "/applications/:id/bot/reset",
     "/applications/:id/delete",
+    "/applications/detectable",
     "/auth/generate-registration-tokens",
     "/auth/mfa/totp",
     "/auth/mfa/webauthn",
