@@ -1,7 +1,7 @@
 {
-  "missing": 630,
+  "missing": 632,
   "spacebar": 187,
-  "discord": 793,
+  "discord": 795,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -253,6 +253,7 @@
     "/guilds/:id/entitlements/:id",
     "/guilds/:id/game-server-regions",
     "/guilds/:id/game-servers",
+    "/guilds/:id/game-servers/:id/wake",
     "/guilds/:id/guild-feed",
     "/guilds/:id/guild-feed/feature",
     "/guilds/:id/guild-feed/mark-seen",
@@ -369,6 +370,7 @@
     "/oauth2/userinfo",
     "/outbound-promotions/:id/claim",
     "/outbound-promotions/preview",
+    "/partner-sdk/guilds/:id/application-storefront",
     "/partner-sdk/provisional-accounts/unmerge",
     "/partner-sdk/token",
     "/partner-sdk/token/bot",
