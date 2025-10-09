@@ -1,6 +1,6 @@
 {
   "missing": 633,
-  "spacebar": 187,
+  "spacebar": 188,
   "discord": 796,
   "routes": [
     "/:id/:id/update-gaming-stats",
@@ -657,6 +657,7 @@
     "/policies/instance/domains",
     "/policies/instance/limits",
     "/policies/stats",
+    "/reporting/menu/message",
     "/scheduled-maintenances/upcoming.json",
     "/store/published-listings/applications/:id/subscription-plans",
     "/track",
