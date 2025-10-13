@@ -1,6 +1,6 @@
 {
   "missing": 635,
-  "spacebar": 199,
+  "spacebar": 187,
   "discord": 798,
   "routes": [
     "/:id/:id/update-gaming-stats",
@@ -643,10 +643,7 @@
     "/-/healthz",
     "/-/readyz",
     "/applications/:id/bot",
-    "/applications/:id/bot",
     "/applications/:id/bot/reset",
-    "/applications/:id/bot/reset",
-    "/applications/:id/delete",
     "/applications/:id/delete",
     "/applications/detectable",
     "/auth/generate-registration-tokens",
@@ -668,8 +665,6 @@
     "/track",
     "/updates",
     "/users/:id/delete",
-    "/users/:id/delete",
-    "/users/:id/messages",
     "/users/:id/messages",
     "/users/@me/connections/:id/:id",
     "/users/@me/connections/:id/:id/access-token",
