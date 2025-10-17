@@ -1,7 +1,7 @@
 {
-  "missing": 635,
-  "spacebar": 188,
-  "discord": 798,
+  "missing": 637,
+  "spacebar": 189,
+  "discord": 800,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -17,6 +17,7 @@
     "/age-verification/test",
     "/age-verification/verify",
     "/ai/fix-grammar",
+    "/ai/summarize-thread/:id",
     "/ai/title",
     "/ai/translate",
     "/apex/experiments",
@@ -615,6 +616,7 @@
     "/users/@me/survey",
     "/users/@me/survey/:id/seen",
     "/users/@me/tenure-reward/sync",
+    "/users/@me/top-sounds-for-guilds",
     "/users/@me/valid-collectibles-gift-recipient",
     "/users/@me/video-filters/assets",
     "/users/@me/video-filters/assets/:id",
