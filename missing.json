@@ -1,6 +1,6 @@
 {
   "missing": 634,
-  "spacebar": 197,
+  "spacebar": 198,
   "discord": 805,
   "routes": [
     "/:id/:id/update-gaming-stats",
@@ -645,6 +645,7 @@
     "/applications/:id/bot/reset",
     "/applications/:id/delete",
     "/applications/detectable",
+    "/auth/fingerprint",
     "/auth/generate-registration-tokens",
     "/auth/mfa/totp",
     "/auth/mfa/webauthn",
