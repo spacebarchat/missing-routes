@@ -1,7 +1,7 @@
 {
-  "missing": 639,
+  "missing": 641,
   "spacebar": 198,
-  "discord": 810,
+  "discord": 812,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -184,7 +184,7 @@
     "/creator-monetization/marketing/nag-activate/eligibility",
     "/debug-logs/:id/:id",
     "/debug-logs/multi/:id",
-    "/debug/applied-boosts/:id/ends-at",
+    "/debug/applied-boosts/ends-at",
     "/discoverable-guilds/search",
     "/discovery/:id",
     "/emojis/:id.:id",
@@ -547,6 +547,8 @@
     "/users/@me/devices/sync-token",
     "/users/@me/dms/:id",
     "/users/@me/email/verify-code",
+    "/users/@me/embedded-survey/:id",
+    "/users/@me/embedded-surveys/:id/responses",
     "/users/@me/emoji-captions",
     "/users/@me/entitlements/gift-codes",
     "/users/@me/entitlements/gift-codes/:id",
