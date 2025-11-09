@@ -1,7 +1,7 @@
 {
-  "missing": 647,
+  "missing": 648,
   "spacebar": 198,
-  "discord": 818,
+  "discord": 819,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -275,6 +275,7 @@
     "/guilds/:id/members/unusual-dm-activity",
     "/guilds/:id/messages/search/tabs",
     "/guilds/:id/mfa",
+    "/guilds/:id/migrate-bypass-slowmode-permission",
     "/guilds/:id/migrate-command-scope",
     "/guilds/:id/migrate-pin-permission",
     "/guilds/:id/new-member-action/:id",
