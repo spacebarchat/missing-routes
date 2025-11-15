@@ -1,7 +1,7 @@
 {
-  "missing": 648,
+  "missing": 649,
   "spacebar": 198,
-  "discord": 819,
+  "discord": 820,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -540,6 +540,7 @@
     "/users/@me/burst-credits",
     "/users/@me/captcha/verify",
     "/users/@me/claim-premium-collectibles-product",
+    "/users/@me/claim-reward-category-product",
     "/users/@me/clan",
     "/users/@me/connections/:id/%3Aid",
     "/users/@me/connections/:id/%3Aid/access-token",
