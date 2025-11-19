@@ -1,7 +1,7 @@
 {
-  "missing": 649,
+  "missing": 648,
   "spacebar": 198,
-  "discord": 820,
+  "discord": 819,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -374,7 +374,6 @@
     "/oauth2/tokens/:id",
     "/oauth2/userinfo",
     "/outbound-promotions/:id/claim",
-    "/outbound-promotions/preview",
     "/partner-sdk/guilds/:id/application-storefront",
     "/partner-sdk/guilds/:id/application-storefront/skus/:id",
     "/partner-sdk/provisional-accounts/unmerge",
