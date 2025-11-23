@@ -1,7 +1,7 @@
 {
-  "missing": 652,
+  "missing": 653,
   "spacebar": 198,
-  "discord": 823,
+  "discord": 824,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -523,6 +523,7 @@
     "/users/@me/billing/stripe/setup-intents",
     "/users/@me/billing/subscriptions/:id",
     "/users/@me/billing/subscriptions/:id/eligible-users",
+    "/users/@me/billing/subscriptions/:id/invites",
     "/users/@me/billing/subscriptions/:id/invoices",
     "/users/@me/billing/subscriptions/:id/invoices/:id/pay",
     "/users/@me/billing/subscriptions/:id/members",
