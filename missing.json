@@ -1,6 +1,6 @@
 {
-  "missing": 653,
-  "spacebar": 198,
+  "missing": 652,
+  "spacebar": 199,
   "discord": 824,
   "routes": [
     "/:id/:id/update-gaming-stats",
@@ -584,7 +584,6 @@
     "/users/@me/library/:id/:id/installed",
     "/users/@me/linked-users",
     "/users/@me/meaningfully-online",
-    "/users/@me/mentions",
     "/users/@me/mentions/:id",
     "/users/@me/message-requests/supplemental-data",
     "/users/@me/messages/search/tabs",
