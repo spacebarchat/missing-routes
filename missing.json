@@ -1,7 +1,7 @@
 {
-  "missing": 653,
+  "missing": 654,
   "spacebar": 203,
-  "discord": 829,
+  "discord": 830,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -86,6 +86,7 @@
     "/avatar-decoration-presets/:id.:id",
     "/avatars/:id/archived/:id/:id.:id",
     "/badge-icons/:id.png",
+    "/billing/apple/acom-subscriptions/migrate",
     "/billing/apple/apply-receipt",
     "/billing/apple/jwt-token",
     "/billing/apple/subscriptions/:id",
