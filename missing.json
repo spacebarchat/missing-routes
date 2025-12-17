@@ -1,7 +1,7 @@
 {
-  "missing": 653,
-  "spacebar": 203,
-  "discord": 829,
+  "missing": 652,
+  "spacebar": 205,
+  "discord": 830,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -80,9 +80,7 @@
     "/auth/passwordless/start",
     "/auth/register/phone",
     "/auth/revert",
-    "/auth/sessions",
     "/auth/sessions/debug/notifications",
-    "/auth/sessions/logout",
     "/avatar-decoration-presets/:id.:id",
     "/avatars/:id/archived/:id/:id.:id",
     "/badge-icons/:id.png",
@@ -377,6 +375,7 @@
     "/oauth2/tokens/:id",
     "/oauth2/userinfo",
     "/outbound-promotions/:id/claim",
+    "/partner-sdk/applications/:id/skus/recommendations",
     "/partner-sdk/guilds/:id/application-storefront",
     "/partner-sdk/guilds/:id/application-storefront/skus/:id",
     "/partner-sdk/provisional-accounts/unmerge",
