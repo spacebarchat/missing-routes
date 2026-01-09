@@ -1,7 +1,7 @@
 {
-  "missing": 656,
+  "missing": 658,
   "spacebar": 206,
-  "discord": 834,
+  "discord": 836,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -90,6 +90,7 @@
     "/billing/apple/subscriptions/:id",
     "/billing/orders",
     "/billing/orders/:id",
+    "/billing/orders/:id/discard",
     "/billing/orders/:id/line-items/:id",
     "/billing/orders/:id/sign",
     "/billing/popup-bridge/:id",
@@ -614,6 +615,7 @@
     "/users/@me/premium-group/invites/:id",
     "/users/@me/premium-group/membership",
     "/users/@me/premium-usage",
+    "/users/@me/program-rewards",
     "/users/@me/referrals/:id",
     "/users/@me/referrals/eligibility",
     "/users/@me/referrals/eligible-users",
