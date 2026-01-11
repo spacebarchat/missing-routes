@@ -1,7 +1,7 @@
 {
-  "missing": 658,
+  "missing": 659,
   "spacebar": 206,
-  "discord": 836,
+  "discord": 837,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -207,6 +207,7 @@
     "/game-invite/@me",
     "/game-invite/@me/:id",
     "/games/:id/updates/:id",
+    "/games/detectable/exclusions",
     "/generated-pools/:id",
     "/generated-pools/@me",
     "/gifs/select",
