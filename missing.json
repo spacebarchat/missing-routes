@@ -1,7 +1,7 @@
 {
-  "missing": 659,
-  "spacebar": 206,
-  "discord": 837,
+  "missing": 660,
+  "spacebar": 207,
+  "discord": 838,
   "routes": [
     "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
@@ -415,6 +415,7 @@
     "/quests/@me",
     "/quests/@me/claimed",
     "/quests/decision?placement=:id&client_heartbeat_session_id=:id&client_ad_session_id=:id",
+    "/quests/earned-decision?quest_ids=:id&content=:id&client_heartbeat_session_id=:id",
     "/quests/placement-alpha",
     "/quests/reset-recent-quest-completions",
     "/referrals/:id",
@@ -674,6 +675,7 @@
     "/auth/generate-registration-tokens",
     "/auth/mfa/totp",
     "/auth/mfa/webauthn",
+    "/auth/whoami",
     "/beaker",
     "/channels/:id/purge",
     "/connections/:id/:id/refresh",
