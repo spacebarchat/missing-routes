@@ -1,11 +1,9 @@
 {
-  "missing": 660,
-  "spacebar": 227,
-  "discord": 838,
+  "missing": 659,
+  "spacebar": 228,
+  "discord": 837,
   "routes": [
-    "/:id/:id/update-gaming-stats",
     "/:id/force-send-prompt",
-    "/:id/gaming-stats",
     "/activities/:id/:id",
     "/activities/:id/test-mode",
     "/activities/applications/:id/activity-instances/:id/join",
@@ -166,6 +164,7 @@
     "/conference-mode/:id/channels",
     "/conference-mode/channels/:id",
     "/conference-mode/channels/:id/users",
+    "/conference-mode/conference",
     "/conference-mode/events",
     "/conference-mode/guilds",
     "/connections/:id/callback/session-handoff",
