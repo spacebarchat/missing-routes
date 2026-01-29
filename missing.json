@@ -416,7 +416,7 @@
     "/quests/:id/video-progress",
     "/quests/@me",
     "/quests/@me/claimed",
-    "/quests/decision?placement=:id&client_heartbeat_session_id=:id&client_ad_session_id=:id",
+    "/quests/decision",
     "/quests/earned-decision?quest_ids=:id&content=:id&client_heartbeat_session_id=:id",
     "/quests/placement-alpha",
     "/quests/reset-recent-quest-completions",
