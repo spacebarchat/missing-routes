@@ -1,7 +1,7 @@
 {
-  "missing": 659,
+  "missing": 658,
   "spacebar": 232,
-  "discord": 842,
+  "discord": 841,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -637,7 +637,6 @@
     "/users/@me/survey",
     "/users/@me/survey/:id/seen",
     "/users/@me/tenure-reward/sync",
-    "/users/@me/top-sounds-for-guilds",
     "/users/@me/valid-collectibles-gift-recipient",
     "/users/@me/valid-collectibles-gift-recipients-batch",
     "/users/@me/video-filters/assets",
