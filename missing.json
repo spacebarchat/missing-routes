@@ -1,7 +1,7 @@
 {
-  "missing": 658,
+  "missing": 661,
   "spacebar": 232,
-  "discord": 841,
+  "discord": 844,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -350,6 +350,7 @@
     "/join-requests/:id",
     "/join-requests/:id/interview",
     "/klipy",
+    "/layouts/:id/:id",
     "/lobbies",
     "/lobbies/:id",
     "/lobbies/:id/channel-linking",
@@ -498,6 +499,8 @@
     "/users/@me/activities/subscribe",
     "/users/@me/affinities/channels",
     "/users/@me/affinities/v2/users",
+    "/users/@me/age-verification/check",
+    "/users/@me/age-verification/reset",
     "/users/@me/agreements",
     "/users/@me/application-command-index",
     "/users/@me/applications/:id/entitlement-ticket",
