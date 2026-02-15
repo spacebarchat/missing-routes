@@ -1,7 +1,7 @@
 {
-  "missing": 658,
+  "missing": 659,
   "spacebar": 236,
-  "discord": 845,
+  "discord": 846,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -386,6 +386,7 @@
     "/partner-sdk/guilds/:id/application-storefront/skus/:id/eligibility",
     "/partner-sdk/provisional-accounts/unmerge",
     "/partner-sdk/provisional-accounts/unmerge/bot",
+    "/partner-sdk/storefront-config",
     "/partner-sdk/token",
     "/partner-sdk/token/bot",
     "/partners/apply",
