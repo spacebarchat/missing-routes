@@ -1,7 +1,7 @@
 {
-  "missing": 664,
+  "missing": 665,
   "spacebar": 236,
-  "discord": 850,
+  "discord": 851,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -473,6 +473,7 @@
     "/streams/:id/stream",
     "/subscription-plans/:id/guild-role-subscription-group-listing",
     "/subscription-plans/:id/subscription-group-listing",
+    "/templates/:id/:id",
     "/templates/:id/icons/:id.:id",
     "/tenor",
     "/tutorial/indicators",
