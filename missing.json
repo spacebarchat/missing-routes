@@ -1,7 +1,7 @@
 {
-  "missing": 665,
+  "missing": 667,
   "spacebar": 236,
-  "discord": 851,
+  "discord": 853,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -187,6 +187,8 @@
     "/entitlements/partner-promotions/:id",
     "/family-center/:id/activity",
     "/family-center/:id/consents",
+    "/family-center/:id/restricted-schedule/rule",
+    "/family-center/:id/restricted-schedule/rules/:id",
     "/family-center/:id/settings-and-consents",
     "/family-center/:id/settings-proto",
     "/family-center/@me",
