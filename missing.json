@@ -1,7 +1,7 @@
 {
-  "missing": 668,
+  "missing": 670,
   "spacebar": 237,
-  "discord": 855,
+  "discord": 857,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -470,6 +470,8 @@
     "/storefront/collections/:id",
     "/storefront/products/:id",
     "/storefront/products/sku/:id",
+    "/storefront/products/skus",
+    "/storefront/skus/prices",
     "/streams/:id/notify",
     "/streams/:id/preview",
     "/streams/:id/stream",
