@@ -1,7 +1,7 @@
 {
-  "missing": 670,
+  "missing": 668,
   "spacebar": 237,
-  "discord": 857,
+  "discord": 856,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -57,7 +57,6 @@
     "/applications/:id/subscription-group-listings/:id",
     "/applications/:id/transfer",
     "/applications/:id/trusted-links/check",
-    "/applications/games-supplemental",
     "/applications/non-games/detectable",
     "/applications/public",
     "/applications/shelf",
@@ -654,7 +653,6 @@
     "/users/@me/video-filters/assets/:id",
     "/users/@me/video-filters/assets/:id/last-used",
     "/users/@me/virtual-currency/balance",
-    "/users/@me/warp/license",
     "/users/@me/widgets",
     "/users/@me/widgets/application-widget-application-ids",
     "/users/@me/widgets/suggested-games",
@@ -729,6 +727,7 @@
     "/users/@me/settings-proto/1",
     "/users/@me/settings-proto/1/json",
     "/users/@me/settings-proto/2",
-    "/users/@me/settings-proto/2/json"
+    "/users/@me/settings-proto/2/json",
+    "/warp/license"
   ]
 }
