@@ -1,6 +1,6 @@
 {
-  "missing": 667,
-  "spacebar": 237,
+  "missing": 666,
+  "spacebar": 238,
   "discord": 855,
   "routes": [
     "/:id/force-send-prompt",
@@ -454,7 +454,6 @@
     "/sticker-packs/:id",
     "/sticker-packs/directory-v2/:id",
     "/stickers/:id.:id",
-    "/stickers/:id/guild",
     "/store/applications/:id/assets/:id.:id",
     "/store/directory-layouts/:id",
     "/store/directory/:id",
