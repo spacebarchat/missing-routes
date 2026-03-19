@@ -1,7 +1,7 @@
 {
-  "missing": 666,
+  "missing": 665,
   "spacebar": 238,
-  "discord": 855,
+  "discord": 854,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -381,7 +381,6 @@
     "/oauth2/tokens/:id",
     "/oauth2/userinfo",
     "/outbound-promotions/:id/claim",
-    "/partner-sdk/applications/:id/skus/recommendations",
     "/partner-sdk/dms/:id/:id/messages/:id/moderation-metadata",
     "/partner-sdk/guilds/:id/application-storefront",
     "/partner-sdk/guilds/:id/application-storefront/announcement",
