@@ -1,7 +1,7 @@
 {
-  "missing": 663,
+  "missing": 664,
   "spacebar": 238,
-  "discord": 852,
+  "discord": 853,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -146,6 +146,7 @@
     "/channels/:id/threads/archived/public",
     "/channels/:id/users/@me/threads/archived/private",
     "/channels/:id/voice-channel-effects",
+    "/channels/:id/voice-history",
     "/channels/:id/voice-status",
     "/channels/recipients/@me/batch-reject",
     "/collectibles-categories/v2",
@@ -199,6 +200,7 @@
     "/friend-suggestions/:id",
     "/game-invite/@me",
     "/game-invite/@me/:id",
+    "/games/:id/announcements",
     "/games/:id/updates/:id",
     "/games/detectable/exclusions",
     "/generated-pools/:id",
@@ -441,7 +443,6 @@
     "/safety-hub/suspended/check-verification",
     "/safety-hub/suspended/request-review/:id",
     "/safety-hub/suspended/request-verification",
-    "/search/favorites",
     "/shop/search",
     "/soundboard-default-sounds",
     "/soundboard-sounds/:id",
