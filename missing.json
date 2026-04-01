@@ -1,7 +1,7 @@
 {
-  "missing": 665,
+  "missing": 667,
   "spacebar": 238,
-  "discord": 854,
+  "discord": 856,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -57,6 +57,7 @@
     "/applications/:id/subscription-group-listings/:id",
     "/applications/:id/transfer",
     "/applications/:id/trusted-links/check",
+    "/applications/:id/widget-configs",
     "/applications/non-games/detectable",
     "/applications/public",
     "/applications/storefront/interactions/premium-button/:id",
@@ -665,6 +666,7 @@
     "/webhooks/:id/:id/messages/:id",
     "/webhooks/:id/:id/messages/@original",
     "/webhooks/:id/:id/slack",
+    "/widget-configs/featured",
     "/wishlist/gift-recommendations",
     "/wishlists/:id",
     "webapp:///billing/premium/subscribe/login-handoff?handoff_key=:id&handoff_token=:id&destination=:id"
