@@ -1,7 +1,7 @@
 {
-  "missing": 672,
+  "missing": 675,
   "spacebar": 238,
-  "discord": 861,
+  "discord": 864,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -10,6 +10,8 @@
     "/activities/discord-config/:id",
     "/activities/shelf",
     "/activities/statistics/applications/:id",
+    "/age-verification/google-wallet/request",
+    "/age-verification/google-wallet/verify",
     "/age-verification/methods",
     "/age-verification/suspended/methods",
     "/age-verification/test",
@@ -671,6 +673,7 @@
     "/webhooks/:id/:id/messages/:id",
     "/webhooks/:id/:id/messages/@original",
     "/webhooks/:id/:id/slack",
+    "/widget-configs/developer",
     "/widget-configs/featured",
     "/wishlist/gift-recommendations",
     "/wishlists/:id",
