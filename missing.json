@@ -1,7 +1,7 @@
 {
-  "missing": 675,
+  "missing": 674,
   "spacebar": 238,
-  "discord": 864,
+  "discord": 863,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -175,7 +175,6 @@
     "/content-inventory/users/@me/similar-games/:id",
     "/content-inventory/users/@me/spotify",
     "/content-inventory/users/@me?refresh_token=:id",
-    "/creator-monetization/marketing/nag-activate/eligibility",
     "/debug-logs/:id/:id",
     "/debug-logs/multi/:id",
     "/debug/applied-boosts/ends-at",
