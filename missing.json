@@ -1,7 +1,7 @@
 {
-  "missing": 680,
+  "missing": 681,
   "spacebar": 238,
-  "discord": 869,
+  "discord": 870,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -111,6 +111,7 @@
     "/channels/:id/call",
     "/channels/:id/call/ring",
     "/channels/:id/call/stop-ringing",
+    "/channels/:id/clips-remote-trigger",
     "/channels/:id/conversations",
     "/channels/:id/convert",
     "/channels/:id/custom-call-sounds",
@@ -382,7 +383,6 @@
     "/oauth2/allowlist/accept",
     "/oauth2/applications/:id/assets",
     "/oauth2/applications/:id/rpc",
-    "/oauth2/applications/:id/tokens",
     "/oauth2/authorize/webhook-channels",
     "/oauth2/device/finish",
     "/oauth2/device/verify",
@@ -516,6 +516,7 @@
     "/users/@me/age-verification/reset",
     "/users/@me/agreements",
     "/users/@me/application-command-index",
+    "/users/@me/application-identities/:id/:id/config",
     "/users/@me/applications/:id/entitlement-ticket",
     "/users/@me/applications/:id/role-connection",
     "/users/@me/applications/:id/ticket",
