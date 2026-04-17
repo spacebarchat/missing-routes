@@ -1,7 +1,7 @@
 {
-  "missing": 681,
+  "missing": 678,
   "spacebar": 238,
-  "discord": 870,
+  "discord": 867,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -216,10 +216,6 @@
     "/google-play/downgrade-subscription",
     "/google-play/validate-purchase",
     "/google-play/verify-purchase-token",
-    "/gorilla/activity/:id/complete",
-    "/gorilla/activity/:id/start",
-    "/gorilla/counters",
-    "/gorilla/user-data/@me",
     "/gravity-content",
     "/gravity-custom-channel-scores",
     "/gravity-custom-guild-score",
@@ -429,6 +425,7 @@
     "/quests/@me/claimed",
     "/quests/decision",
     "/quests/earned-decision?quest_ids=:id&content=:id&client_heartbeat_session_id=:id",
+    "/quests/get-decisions",
     "/quests/placement-alpha",
     "/quests/reset-recent-quest-completions",
     "/referrals/:id",
