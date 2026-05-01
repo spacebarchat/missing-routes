@@ -1,7 +1,7 @@
 {
-  "missing": 687,
+  "missing": 683,
   "spacebar": 238,
-  "discord": 876,
+  "discord": 872,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -129,7 +129,6 @@
     "/channels/:id/integrations/:id",
     "/channels/:id/linked-lobby",
     "/channels/:id/media-post-preview",
-    "/channels/:id/messages/:id/hide-guild-feed",
     "/channels/:id/messages/:id/interaction-data",
     "/channels/:id/messages/:id/reactions/:id/@me",
     "/channels/:id/messages/ack",
@@ -263,9 +262,6 @@
     "/guilds/:id/game-servers",
     "/guilds/:id/game-servers/:id/wake",
     "/guilds/:id/guild-feed",
-    "/guilds/:id/guild-feed/feature",
-    "/guilds/:id/guild-feed/mark-seen",
-    "/guilds/:id/guild-feed/preference",
     "/guilds/:id/home-headers/:id.jpg",
     "/guilds/:id/icons/:id.:id",
     "/guilds/:id/incident-actions",
