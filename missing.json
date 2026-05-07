@@ -1,7 +1,7 @@
 {
-  "missing": 683,
+  "missing": 681,
   "spacebar": 238,
-  "discord": 872,
+  "discord": 870,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -301,8 +301,6 @@
     "/guilds/:id/requests/:id",
     "/guilds/:id/requests/:id/ack",
     "/guilds/:id/requests/@me",
-    "/guilds/:id/requests/@me/cooldown",
-    "/guilds/:id/requests/id/:id",
     "/guilds/:id/requests/users/:id",
     "/guilds/:id/resource-channels/:id",
     "/guilds/:id/role-subscriptions/group-listings/:id",
