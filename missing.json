@@ -1,7 +1,7 @@
 {
-  "missing": 682,
+  "missing": 684,
   "spacebar": 238,
-  "discord": 871,
+  "discord": 873,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -272,6 +272,7 @@
     "/guilds/:id/members/search",
     "/guilds/:id/members/supplemental",
     "/guilds/:id/members/unusual-dm-activity",
+    "/guilds/:id/messages/official",
     "/guilds/:id/messages/search/tabs",
     "/guilds/:id/mfa",
     "/guilds/:id/migrate-bypass-slowmode-permission",
@@ -384,6 +385,7 @@
     "/oauth2/tokens/:id",
     "/oauth2/userinfo",
     "/outbound-promotions/:id/claim",
+    "/partner-sdk/applications/:id/application-storefront",
     "/partner-sdk/applications/:id/storefront/skus/:id",
     "/partner-sdk/dms/:id/:id/messages/:id/moderation-metadata",
     "/partner-sdk/guilds/:id/application-storefront",
