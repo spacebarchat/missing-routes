@@ -1,7 +1,7 @@
 {
-  "missing": 684,
+  "missing": 685,
   "spacebar": 238,
-  "discord": 873,
+  "discord": 874,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -328,6 +328,7 @@
     "/guilds/:id/soundboard-sounds",
     "/guilds/:id/soundboard-sounds/:id",
     "/guilds/:id/splashes/:id.jpg",
+    "/guilds/:id/theme",
     "/guilds/:id/threads/active",
     "/guilds/:id/top-emojis",
     "/guilds/:id/top-games",
