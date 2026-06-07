@@ -1,7 +1,7 @@
 {
-  "missing": 686,
+  "missing": 687,
   "spacebar": 238,
-  "discord": 875,
+  "discord": 876,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -393,7 +393,6 @@
     "/partner-sdk/guilds/:id/application-storefront",
     "/partner-sdk/guilds/:id/application-storefront/announcement",
     "/partner-sdk/guilds/:id/application-storefront/skus/:id",
-    "/partner-sdk/guilds/:id/application-storefront/skus/:id/eligibility",
     "/partner-sdk/provisional-accounts/unmerge",
     "/partner-sdk/provisional-accounts/unmerge/bot",
     "/partner-sdk/storefront-config",
@@ -452,6 +451,8 @@
     "/safety-hub/suspended/request-review/:id",
     "/safety-hub/suspended/request-verification",
     "/shop/search",
+    "/skus/:id/subscriptions",
+    "/skus/:id/subscriptions/:id",
     "/soundboard-default-sounds",
     "/soundboard-sounds/:id",
     "/soundboard-sounds/:id/guild/:id",
