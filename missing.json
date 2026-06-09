@@ -1,7 +1,7 @@
 {
-  "missing": 687,
+  "missing": 688,
   "spacebar": 238,
-  "discord": 876,
+  "discord": 877,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -92,6 +92,7 @@
     "/billing/orders",
     "/billing/orders/:id",
     "/billing/orders/:id/discard",
+    "/billing/orders/:id/entitlements",
     "/billing/orders/:id/line-items/:id",
     "/billing/orders/:id/sign",
     "/billing/popup-bridge/:id",
