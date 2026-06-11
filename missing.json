@@ -1,7 +1,7 @@
 {
-  "missing": 688,
+  "missing": 689,
   "spacebar": 238,
-  "discord": 877,
+  "discord": 878,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -408,6 +408,7 @@
     "/platform-application",
     "/premium-marketing/@me/campaigns/:id/eligibility",
     "/private/bug-reports",
+    "/private/clip-feedback",
     "/promotions",
     "/quests/:id",
     "/quests/:id/claim-reward",
