@@ -1,7 +1,7 @@
 {
-  "missing": 689,
+  "missing": 690,
   "spacebar": 238,
-  "discord": 878,
+  "discord": 879,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -197,6 +197,7 @@
     "/family-center/:id/settings-proto",
     "/family-center/@me",
     "/family-center/@me/link-code",
+    "/family-center/connection-prerequisites",
     "/family-center/more-activity/:id/:id/:id/:id",
     "/family-center/share-iar-with-parents",
     "/family-center/teen-user/:id",
@@ -206,6 +207,7 @@
     "/game-invite/@me",
     "/game-invite/@me/:id",
     "/games/:id/announcements",
+    "/games/autocomplete",
     "/games/detectable/exclusions",
     "/generated-pools/:id",
     "/generated-pools/@me",
@@ -572,7 +574,6 @@
     "/users/@me/billing/user-trial-offer",
     "/users/@me/billing/user-trial-offer/:id/ack",
     "/users/@me/billing/wallet/:id/information",
-    "/users/@me/burst-credits",
     "/users/@me/captcha/verify",
     "/users/@me/channels/group-dm-shell",
     "/users/@me/claim-premium-collectibles-product",
