@@ -1,7 +1,7 @@
 {
-  "missing": 690,
+  "missing": 692,
   "spacebar": 238,
-  "discord": 879,
+  "discord": 881,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -494,6 +494,7 @@
     "/templates/:id/:id",
     "/templates/:id/icons/:id.:id",
     "/tenor",
+    "/threads/bulk",
     "/tutorial/indicators",
     "/tutorial/indicators/:id",
     "/tutorial/indicators/suppress",
@@ -595,6 +596,7 @@
     "/users/@me/entitlements/gift-codes",
     "/users/@me/entitlements/gift-codes/:id",
     "/users/@me/game-relationships/:id/:id",
+    "/users/@me/gift-intent-dismissals",
     "/users/@me/gravity-attachments",
     "/users/@me/gravity-attachments-upload",
     "/users/@me/gravity-icymi",
