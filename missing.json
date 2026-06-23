@@ -1,7 +1,7 @@
 {
-  "missing": 692,
+  "missing": 695,
   "spacebar": 238,
-  "discord": 881,
+  "discord": 884,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -319,6 +319,9 @@
     "/guilds/:id/roles/:id/connections/eligibility",
     "/guilds/:id/roles/:id/connections/unassign",
     "/guilds/:id/roles/connections-configurations",
+    "/guilds/:id/rooms/:id/connect",
+    "/guilds/:id/rooms/:id/disconnect",
+    "/guilds/:id/rooms/:id/update",
     "/guilds/:id/scheduled-events",
     "/guilds/:id/scheduled-events/:id",
     "/guilds/:id/scheduled-events/:id/:id/users",
