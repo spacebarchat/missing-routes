@@ -1,7 +1,7 @@
 {
-  "missing": 695,
+  "missing": 697,
   "spacebar": 238,
-  "discord": 884,
+  "discord": 886,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -12,6 +12,7 @@
     "/activities/statistics/applications/:id",
     "/age-verification/google-wallet/request",
     "/age-verification/google-wallet/verify",
+    "/age-verification/incode/interview",
     "/age-verification/methods",
     "/age-verification/suspended/methods",
     "/age-verification/test",
@@ -600,6 +601,7 @@
     "/users/@me/entitlements/gift-codes/:id",
     "/users/@me/game-relationships/:id/:id",
     "/users/@me/gift-intent-dismissals",
+    "/users/@me/gift-intents/dismiss",
     "/users/@me/gravity-attachments",
     "/users/@me/gravity-attachments-upload",
     "/users/@me/gravity-icymi",
