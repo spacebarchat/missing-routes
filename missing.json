@@ -1,6 +1,6 @@
 {
-  "missing": 697,
-  "spacebar": 238,
+  "missing": 694,
+  "spacebar": 241,
   "discord": 886,
   "routes": [
     "/:id/force-send-prompt",
@@ -136,9 +136,6 @@
     "/channels/:id/messages/announcement",
     "/channels/:id/messages/search/tabs",
     "/channels/:id/pins/ack",
-    "/channels/:id/polls/:id/answers/:id",
-    "/channels/:id/polls/:id/answers/@me",
-    "/channels/:id/polls/:id/expire",
     "/channels/:id/recipients/@me",
     "/channels/:id/safety-warning/report-false-positive",
     "/channels/:id/safety-warnings",
