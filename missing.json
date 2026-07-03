@@ -1,6 +1,6 @@
 {
-  "missing": 694,
-  "spacebar": 241,
+  "missing": 692,
+  "spacebar": 243,
   "discord": 886,
   "routes": [
     "/:id/force-send-prompt",
@@ -43,8 +43,6 @@
     "/applications/:id/branches/:id/builds/live",
     "/applications/:id/branches/:id/storage",
     "/applications/:id/disclosures",
-    "/applications/:id/emojis",
-    "/applications/:id/emojis/:id",
     "/applications/:id/entitlements/:id",
     "/applications/:id/entitlements/:id/consume",
     "/applications/:id/external-assets",
