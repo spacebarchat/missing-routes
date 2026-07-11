@@ -1,7 +1,7 @@
 {
-  "missing": 698,
+  "missing": 699,
   "spacebar": 243,
-  "discord": 892,
+  "discord": 893,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -240,6 +240,7 @@
     "/guilds/:id/avatars/:id.:id",
     "/guilds/:id/banners/:id.:id",
     "/guilds/:id/basic",
+    "/guilds/:id/bulk-ban/v2",
     "/guilds/:id/config-gates",
     "/guilds/:id/creator-monetization/accept-new-terms",
     "/guilds/:id/creator-monetization/accept-new-terms-demonetized",
