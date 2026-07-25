@@ -1,7 +1,7 @@
 {
-  "missing": 703,
+  "missing": 705,
   "spacebar": 244,
-  "discord": 898,
+  "discord": 900,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -15,6 +15,7 @@
     "/age-verification/incode/interview",
     "/age-verification/incode/session",
     "/age-verification/methods",
+    "/age-verification/methods/v2",
     "/age-verification/suspended/methods",
     "/age-verification/test",
     "/age-verification/verify",
@@ -91,6 +92,7 @@
     "/billing/gift-card/view",
     "/billing/orders",
     "/billing/orders/:id",
+    "/billing/orders/:id/cancel-signing",
     "/billing/orders/:id/discard",
     "/billing/orders/:id/entitlements",
     "/billing/orders/:id/line-items/:id",
