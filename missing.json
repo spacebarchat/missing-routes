@@ -1,7 +1,7 @@
 {
-  "missing": 718,
+  "missing": 721,
   "spacebar": 257,
-  "discord": 913,
+  "discord": 916,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -340,6 +340,7 @@
     "/guilds/:id/soundboard-sounds",
     "/guilds/:id/soundboard-sounds/:id",
     "/guilds/:id/space",
+    "/guilds/:id/space/settings",
     "/guilds/:id/space/widgets/catalog",
     "/guilds/:id/space/widgets/hydrate",
     "/guilds/:id/splashes/:id.jpg",
@@ -550,6 +551,7 @@
     "/users/@me/avatars",
     "/users/@me/avatars/:id",
     "/users/@me/background-sync",
+    "/users/@me/badges/settings",
     "/users/@me/billing/adyen/payment-methods",
     "/users/@me/billing/apple/trial-offer-signature",
     "/users/@me/billing/campaign-context",
@@ -616,6 +618,7 @@
     "/users/@me/game-server-regions",
     "/users/@me/game-servers",
     "/users/@me/game-servers/:id",
+    "/users/@me/game-servers/:id/wake",
     "/users/@me/gift-intent-dismissals",
     "/users/@me/gift-intents/dismiss",
     "/users/@me/gravity-attachments",
