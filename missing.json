@@ -1,7 +1,7 @@
 {
-  "missing": 721,
+  "missing": 717,
   "spacebar": 257,
-  "discord": 916,
+  "discord": 912,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -354,10 +354,6 @@
     "/guilds/:id/voice-hangout/recent-images",
     "/guilds/:id/voice-states/@me",
     "/guilds/gravity-join",
-    "/haven/:id/connect",
-    "/haven/:id/disconnect",
-    "/haven/:id/update",
-    "/haven/assets",
     "/holidays/redeem-prize",
     "/initiate-prompts",
     "/integrations/:id/join",
