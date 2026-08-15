@@ -1,7 +1,7 @@
 {
-  "missing": 717,
+  "missing": 718,
   "spacebar": 257,
-  "discord": 912,
+  "discord": 913,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -226,6 +226,7 @@
     "/gravity-topic-guilds",
     "/guild-events",
     "/guild-events/:id/images/:id.:id",
+    "/guild-space/:id/banner/:id.:id",
     "/guild-space/:id/image-text-widget/:id/:id.:id",
     "/guilds/:id/ack/:id/:id",
     "/guilds/:id/active-channels",
