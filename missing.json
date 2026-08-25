@@ -1,7 +1,7 @@
 {
-  "missing": 716,
+  "missing": 717,
   "spacebar": 259,
-  "discord": 913,
+  "discord": 914,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -707,6 +707,7 @@
     "/vibegrations/projects/:id",
     "/vibegrations/projects/:id/publish",
     "/vibegrations/projects/:id/publish-preview",
+    "/vibegrations/projects/:id/remix-ticket",
     "/vibegrations/projects/:id/ws-ticket",
     "/virtual-currency/skus/:id/redeem",
     "/voice-hangouts/:id/:id",
