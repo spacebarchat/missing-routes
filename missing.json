@@ -1,7 +1,7 @@
 {
-  "missing": 717,
+  "missing": 720,
   "spacebar": 259,
-  "discord": 914,
+  "discord": 917,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -62,6 +62,7 @@
     "/applications/:id/transfer",
     "/applications/:id/trusted-links/check",
     "/applications/:id/widget-configs",
+    "/applications/:id/widget/refresh",
     "/applications/non-games/detectable",
     "/applications/public",
     "/applications/storefront/interactions/premium-button/:id",
@@ -350,6 +351,7 @@
     "/guilds/:id/top-emojis",
     "/guilds/:id/top-games",
     "/guilds/:id/top-read-channels",
+    "/guilds/:id/top-soundboard-sounds",
     "/guilds/:id/users/:id/avatars/:id.:id",
     "/guilds/:id/users/:id/banners/:id.:id",
     "/guilds/:id/voice-hangout/recent-images",
@@ -584,6 +586,7 @@
     "/users/@me/billing/user-offer",
     "/users/@me/billing/user-offer/ack",
     "/users/@me/billing/user-offer/redeem",
+    "/users/@me/billing/user-offer/trigger",
     "/users/@me/billing/user-trial-offer",
     "/users/@me/billing/user-trial-offer/:id/ack",
     "/users/@me/billing/wallet/:id/information",
