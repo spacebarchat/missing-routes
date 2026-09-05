@@ -1,7 +1,7 @@
 {
-  "missing": 734,
+  "missing": 735,
   "spacebar": 260,
-  "discord": 932,
+  "discord": 933,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -629,6 +629,7 @@
     "/users/@me/game-servers",
     "/users/@me/game-servers/:id",
     "/users/@me/game-servers/:id/wake",
+    "/users/@me/gift-code-deliveries",
     "/users/@me/gift-intent-dismissals",
     "/users/@me/gift-intents/dismiss",
     "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility",
