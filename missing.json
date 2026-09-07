@@ -1,7 +1,7 @@
 {
-  "missing": 735,
+  "missing": 736,
   "spacebar": 260,
-  "discord": 933,
+  "discord": 934,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -20,6 +20,7 @@
     "/age-verification/manual-review",
     "/age-verification/methods",
     "/age-verification/methods/v2",
+    "/age-verification/suspended/manual-review",
     "/age-verification/suspended/methods",
     "/age-verification/suspended/methods/v2",
     "/age-verification/test",
