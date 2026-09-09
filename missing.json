@@ -1,7 +1,7 @@
 {
-  "missing": 736,
+  "missing": 739,
   "spacebar": 260,
-  "discord": 934,
+  "discord": 937,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -370,6 +370,9 @@
     "/integrations/:id/join",
     "/invites/:id/friend-members",
     "/invites/:id/target-users",
+    "/invites/:id/target-users/:id",
+    "/invites/:id/target-users/bulk-add",
+    "/invites/:id/target-users/bulk-delete",
     "/invites/:id/target-users/job-status",
     "/join-requests/:id",
     "/join-requests/:id/interview",
