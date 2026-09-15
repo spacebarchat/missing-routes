@@ -1,7 +1,7 @@
 {
-  "missing": 739,
+  "missing": 740,
   "spacebar": 260,
-  "discord": 937,
+  "discord": 938,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -162,6 +162,7 @@
     "/channels/:id/voice-history",
     "/channels/:id/voice-status",
     "/channels/recipients/@me/batch-reject",
+    "/clips/autoclips/game-capabilities/:id",
     "/clips/module-assets",
     "/collectibles-categories/v2",
     "/collectibles-products/:id",
