@@ -1,7 +1,7 @@
 {
-  "missing": 740,
+  "missing": 742,
   "spacebar": 260,
-  "discord": 938,
+  "discord": 940,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -124,6 +124,7 @@
     "/channels/:id/call/stop-ringing",
     "/channels/:id/clips-remote-trigger",
     "/channels/:id/conversations",
+    "/channels/:id/conversations/:id",
     "/channels/:id/conversations/:id/messages",
     "/channels/:id/convert",
     "/channels/:id/custom-call-sounds",
@@ -283,6 +284,7 @@
     "/guilds/:id/incident-actions",
     "/guilds/:id/integrations/:id",
     "/guilds/:id/integrations/:id/sync",
+    "/guilds/:id/intelligence/search",
     "/guilds/:id/join-admin-server",
     "/guilds/:id/members-search",
     "/guilds/:id/members/@me",
