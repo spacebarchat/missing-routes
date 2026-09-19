@@ -1,7 +1,7 @@
 {
-  "missing": 742,
+  "missing": 740,
   "spacebar": 260,
-  "discord": 940,
+  "discord": 938,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -110,7 +110,6 @@
     "/billing/popup-bridge/:id/callback/:id/:id",
     "/billing/store-country",
     "/billing/verify-purchase-request",
-    "/bogo-promotions",
     "/branches",
     "/captcha/decider",
     "/changelogs/@me/messages",
@@ -639,7 +638,6 @@
     "/users/@me/gift-code-deliveries",
     "/users/@me/gift-intent-dismissals",
     "/users/@me/gift-intents/dismiss",
-    "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility",
     "/users/@me/gravity-attachments",
     "/users/@me/gravity-attachments-upload",
     "/users/@me/gravity-icymi",
