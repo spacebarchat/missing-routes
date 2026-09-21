@@ -1,6 +1,6 @@
 {
   "missing": 740,
-  "spacebar": 260,
+  "spacebar": 261,
   "discord": 938,
   "routes": [
     "/:id/force-send-prompt",
@@ -749,6 +749,7 @@
     "/.well-known/spacebar/client",
     "/_spacebar/api/openapi.json",
     "/_spacebar/api/schemas.json",
+    "/_spacebar/api/v1/avatar_decorations",
     "/_spacebar/api/v1/channels/:id/attachments",
     "/_spacebar/api/v1/integrations/gif",
     "/_spacebar/api/version",
