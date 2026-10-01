@@ -1,7 +1,7 @@
 {
-  "missing": 753,
+  "missing": 756,
   "spacebar": 262,
-  "discord": 951,
+  "discord": 954,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -156,6 +156,7 @@
     "/channels/:id/safety-warning/report-false-positive",
     "/channels/:id/safety-warnings",
     "/channels/:id/safety-warnings/ack",
+    "/channels/:id/send-soundboard-echo",
     "/channels/:id/send-soundboard-sound",
     "/channels/:id/store-listing",
     "/channels/:id/store-listing/entitlement-grant",
@@ -183,6 +184,7 @@
     "/conference-mode/conference",
     "/conference-mode/events",
     "/conference-mode/guilds",
+    "/conjuring/projects/:id/ack/:id",
     "/connections/:id/callback/session-handoff",
     "/connections/:id/link-dispatch-auth-callback",
     "/consoles/:id/devices",
@@ -730,6 +732,7 @@
     "/users/@me/video-filters/assets/:id",
     "/users/@me/video-filters/assets/:id/last-used",
     "/users/@me/virtual-currency/balance",
+    "/users/@me/virtual-currency/total-redeemed",
     "/users/@me/widgets",
     "/users/@me/widgets/assets/upload",
     "/users/@me/widgets/clips/upload",
