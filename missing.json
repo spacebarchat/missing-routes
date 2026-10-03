@@ -1,7 +1,7 @@
 {
-  "missing": 756,
+  "missing": 757,
   "spacebar": 262,
-  "discord": 954,
+  "discord": 955,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -742,6 +742,7 @@
     "/users/@me/wishlists/:id/items/:id",
     "/users/disable-email-notifications",
     "/users/disable-server-highlight-notifications",
+    "/vibegrations/project-limit",
     "/vibegrations/projects",
     "/vibegrations/projects/:id",
     "/vibegrations/projects/:id/publish",
