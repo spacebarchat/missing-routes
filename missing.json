@@ -1,7 +1,7 @@
 {
-  "missing": 757,
+  "missing": 760,
   "spacebar": 262,
-  "discord": 955,
+  "discord": 958,
   "routes": [
     "/:id/force-send-prompt",
     "/activities/:id/:id",
@@ -228,6 +228,7 @@
     "/friend-suggestions/:id",
     "/game-invite/@me",
     "/game-invite/@me/:id",
+    "/game-organizations/:id/:id/invites",
     "/games/:id/announcements",
     "/games/autocomplete",
     "/games/detectable/exclusions",
@@ -715,6 +716,7 @@
     "/users/@me/remote-auth/login",
     "/users/@me/saved-messages",
     "/users/@me/saved-messages/:id/:id",
+    "/users/@me/saved-messages/bookmarks",
     "/users/@me/scheduled-events",
     "/users/@me/scheduled-messages",
     "/users/@me/scheduled-messages/:id",
@@ -748,6 +750,7 @@
     "/vibegrations/projects/:id/publish",
     "/vibegrations/projects/:id/publish-preview",
     "/vibegrations/projects/:id/remix-ticket",
+    "/vibegrations/projects/:id/unpublish",
     "/vibegrations/projects/:id/ws-ticket",
     "/virtual-currency/skus/:id/redeem",
     "/voice-hangouts/:id/:id",
