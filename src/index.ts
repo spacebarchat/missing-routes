@@ -76,7 +76,7 @@ const getDcOpenAPI = async () => {
 		"https://github.com/discord/discord-api-spec/raw/main/specs/openapi_preview.json"
 	)
 		.then((x) => x.json())
-		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "").replace(/{\w+?}/g, ":id")));
+		.then((x: any) => Object.keys(x.paths).map((y) => y.replace(/\/$/, "").replace(/{\w+?}/g, ":id").replace(/^\//, "/api/")));
 };
 
 const getSbOpenAPI = async () => {
