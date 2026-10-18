@@ -11,5 +11,5 @@ const routes = undefined;// --- GENERATED_CODE_MARKER ---
 
 // we're inside an eval, so this code is what is implicitly returned
 Object.values(routes).map((route) => {
-	return typeof route == "function" ? route(...new Array(20).fill(":id")) : route;
+	return typeof route == "function" ? (route(...new Array(20).fill(":id")).startsWith(window.GLOBAL_ENV.WEBAPP_ENDPOINT) ? "" : "/api") + route(...new Array(20).fill(":id")) : (route.startsWith(window.GLOBAL_ENV.WEBAPP_ENDPOINT) ? "" : "/api") + route;
 });
