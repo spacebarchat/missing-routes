@@ -1,7 +1,7 @@
 {
-  "missing": 768,
+  "missing": 770,
   "spacebar": 263,
-  "discord": 964,
+  "discord": 966,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -239,6 +239,7 @@
     "/api/game-invite/@me",
     "/api/game-invite/@me/:id",
     "/api/game-organization-invites/:id",
+    "/api/game-organization-invites/:id/join",
     "/api/game-organizations/:id/:id/invites",
     "/api/game-organizations/invitable/@me",
     "/api/games/:id/announcements",
@@ -436,6 +437,7 @@
     "/api/oauth2/samsung/authorize",
     "/api/oauth2/samsung/authorize/callback",
     "/api/oauth2/tokens/:id",
+    "/api/orbs-arcade/games/:id/enrollment",
     "/api/orbs-arcade/games/:id/reset",
     "/api/orbs-arcade/games/:id/rewards/claim",
     "/api/orbs-arcade/games/@me",
