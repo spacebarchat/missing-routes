@@ -1,7 +1,7 @@
 {
-  "missing": 774,
+  "missing": 775,
   "spacebar": 263,
-  "discord": 970,
+  "discord": 971,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -594,6 +594,7 @@
     "/api/users/@me/age-verification/check",
     "/api/users/@me/age-verification/reset",
     "/api/users/@me/agreements",
+    "/api/users/@me/app-store-consent/reinstate",
     "/api/users/@me/application-command-index",
     "/api/users/@me/application-identities/:id/:id/config",
     "/api/users/@me/applications/:id/entitlement-ticket",
