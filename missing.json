@@ -1,7 +1,7 @@
 {
-  "missing": 775,
-  "spacebar": 263,
-  "discord": 971,
+  "missing": 776,
+  "spacebar": 266,
+  "discord": 972,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -302,6 +302,7 @@
     "/api/guilds/:id/embedded-applications",
     "/api/guilds/:id/entitlements",
     "/api/guilds/:id/entitlements/:id",
+    "/api/guilds/:id/game-organizations",
     "/api/guilds/:id/game-server-regions",
     "/api/guilds/:id/game-servers",
     "/api/guilds/:id/game-servers/:id/wake",
@@ -808,6 +809,9 @@
     "/api/download",
     "/api/guild-recommendations",
     "/api/guilds/:id/shield.svg",
+    "/api/oauth2/applications/:id/allowlist",
+    "/api/oauth2/applications/:id/allowlist/:id",
+    "/api/oauth2/applications/allowlist/accept",
     "/api/ping",
     "/api/policies/instance",
     "/api/policies/instance/config",
