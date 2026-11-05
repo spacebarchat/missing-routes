@@ -1,7 +1,7 @@
 {
-  "missing": 776,
+  "missing": 778,
   "spacebar": 266,
-  "discord": 972,
+  "discord": 974,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -244,6 +244,7 @@
     "/api/game-organization-invites/:id/join",
     "/api/game-organizations/:id/:id/invites",
     "/api/game-organizations/invitable/@me",
+    "/api/game-organizations/linkable/@me/:id",
     "/api/games/:id/announcements",
     "/api/games/autocomplete",
     "/api/games/detectable/exclusions",
@@ -605,6 +606,7 @@
     "/api/users/@me/avatars",
     "/api/users/@me/avatars/:id",
     "/api/users/@me/background-sync",
+    "/api/users/@me/badges/:id/ack",
     "/api/users/@me/badges/settings",
     "/api/users/@me/billing/adyen/payment-methods",
     "/api/users/@me/billing/apple/trial-offer-signature",
