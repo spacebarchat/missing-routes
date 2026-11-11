@@ -1,7 +1,7 @@
 {
-  "missing": 780,
+  "missing": 781,
   "spacebar": 266,
-  "discord": 976,
+  "discord": 977,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -177,6 +177,7 @@
     "/api/clips/autoclips/game-capabilities/:id",
     "/api/clips/module-assets",
     "/api/collectibles-categories/v2",
+    "/api/collectibles-collection-sequenced-offers",
     "/api/collectibles-products/:id",
     "/api/conference-mode/:id/channels",
     "/api/conference-mode/channels/:id",
