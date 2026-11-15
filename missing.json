@@ -1,7 +1,7 @@
 {
-  "missing": 782,
+  "missing": 785,
   "spacebar": 266,
-  "discord": 978,
+  "discord": 981,
   "routes": [
     "/api/:id/force-send-prompt",
     "/api/activities",
@@ -109,6 +109,7 @@
     "/api/billing/orders/:id/sign",
     "/api/billing/past-due-payment/invoice",
     "/api/billing/past-due-payment/pay",
+    "/api/billing/past-due-payment/payment-intent",
     "/api/billing/past-due-payment/payment-source",
     "/api/billing/past-due-payment/setup-intent",
     "/api/billing/past-due-payment/validate-billing-address",
@@ -561,6 +562,8 @@
     "/api/streams/:id/stream",
     "/api/subscription-plans/:id/guild-role-subscription-group-listing",
     "/api/subscription-plans/:id/subscription-group-listing",
+    "/api/surveys/:id/session",
+    "/api/surveys/:id/session/submit",
     "/api/templates/:id/:id",
     "/api/templates/:id/icons/:id.:id",
     "/api/tenor",
